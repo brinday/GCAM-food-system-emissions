@@ -1,41 +1,34 @@
 [![DOI](https://zenodo.org/badge/265119113.svg)](https://zenodo.org/badge/latestdoi/265119113)
 
-# metarepo
+# Yarlagadda et al. "The critical role of dietary change and waste reduction in food system emissions mitigation"
 Template repository for a single point of access meta-repository to reproduce an experiment
 
-## Purpose
-A meta-repository creates a single point of access for someone to find all of the components that were used to create a published work for the purpose of reproducibility.  This repository should contain references to all minted data and software as well as house any ancillary code used to transform the source data, create figures for your publication, conduct the experiment, and / or execute the contributing software.
+## Summary
+Food systems are a growing source of global emissions. Demand-side strategies could play a critical role in their mitigation. We evaluate how dietary change and waste reduction could reduce food system emissions across well-below 2°C, near 2°C, and no carbon price mitigation levels. Ambitious dietary change and waste reduction ambition could reduce end-of-century temperature by up to 0.3°C and advance peak temperature year by 5-15 years in the well-below 2°C and near 2°C scenarios, thus reducing overshoot and enhancing the likelihood of meeting long-term temperature goals. Food demand strategies can compensate for weak or delayed actions in non-food sectors, with the potential for substantial near-term reductions.  Achieving ambitious food system transformation will require substantial but differentiated action across regions of all income levels—high-income regions will need to transform their diets drastically, while the key objective in low/lower-middle income regions will be avoiding increasing livestock intake from current levels.
 
-## Using the template
-Simply click `Use this template` on the main repository page (shows up to the left of `Clone or download`) and fill in your `Repository name`, the `Description`, select whether you want the repository to be `Public` or `Private`, and leave `Include all branches` unchecked.
+## Journal reference
+To be added
 
-## Naming your meta-repository
-The following naming conventions should be used when naming your repository:  
-- Single author:  `lastname_year_journal`
-- Multi author:  `lastname-etal_year_journal`
-- Multiple publications in the same journal:  `lastname-etal_year-letter_journal` (e.g., `human-etal_2020-b_nature`)
+## Code and Data
+### GCAM Model Version and Input Files
+Yarlagadda, B. and Zhao, X. (2025). Input data and model version for GCAM dietary change and waste reduction scenarios. Zenodo.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10840364.svg)](https://doi.org/10.5281/zenodo.10840364)
 
-## Customize your `.gitignore` file
-A general `.gitignore` for use with Python or R development is included.  However, you may wish to customize this to the needs of your project.  The `.gitignore` file lets Git know what to push to the remote repository and what needs to be ignored and stay local.
+### Output data
+Yarlagadda, B. and Zhao, X. (2024). Output data from gcam-food-system-emissions
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10849930.svg)](https://doi.org/10.5281/zenodo.10849930)
 
-## Suggestions
-- Don't bog down your repository with a bunch of raw data.  Instead archive and mint a DOI for your data and provide the reference in this repository with instructions for use.
-- Create complete and tested documentation for how to use what is in this repository to reproduce your experiment.
+### System requirements:
+Software dependencies (and versions) for running GCAM, an open source model, are documented at: 
+https://jgcri.github.io/gcam-doc/gcam-build.html
 
-## Creating a minted release for your meta-repository
-It is important to version and release your meta-repository as well due to changes that may occur during the publication review process.  If you do not know how to conduct a release on GitHub when linked with Zenodo, please contact chris.vernon@pnnl.gov to get set up.  
+### Installation guide:
+Installation requirements for running GCAM are documented at:
+https://jgcri.github.io/gcam-doc/user-guide.html
+To install and compile GCAM, it typically takes 2-3 hours.
 
-## The meta-repository markdown template
-A sample meta-repository template is provided in this repository in the file `metarepo_template.md`.  
+### Demo:
+To run the scenarios in this paper, use the exe/configuration.xml included in the input files.
+A subset of the expected output has been provided in the output dataset.
 
-To use it, do the following:
-1. Create the template repository as mentioned above in [Using the template](#using-the-template)
-2. Clone your new repository to you local machine
-3. Change directories into your new meta-repository directory you just cloned
-4. Run `git rm README.md` to delete this file (`README.md`) and commit it using `git commit -m 'remove instructions'`
-5. Rename `metarepo_template.md` as `README.md`
-6. Run `git add README.md` to stage the new file that will show up on load in your remote GitHub repository
-7. Run `git rm metarepo_template.md` to remove the original template
-8. Run `git commit -m 'set up new template as readme'` to set the changes
-9. Run `git push` to send the changes to your remote GitHub repository
-10. Modify the `README.md` file to represent your experiement and use the `add`, `commit`, `push` workflow to update your remote repository
+To reproduce the figures shown in the paper, use the script generate_figures.R
