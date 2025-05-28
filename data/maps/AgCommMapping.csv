@@ -1,0 +1,27 @@
+regsector,AgCOMM,AgCOMM0,AgCOMM1,AgCOMM2,AgCOMM3,AgMIP,AgCOMM_SS
+biomass,biomass,Crop,biomass,Energy crops,Energy crops,ECP,Energy crops
+regional wheat,Wheat,Crop,Staples,Staple crops,Staple crops,WHT,Staple crops
+regional rice,Rice,Crop,Staples,Staple crops,Staple crops,RIC,Staple crops
+regional corn,Corn,Crop,Staples,Staple crops,Staple crops,CGR,Staple crops
+regional othergrain,OtherGrain,Crop,Staples,Staple crops,Staple crops,CGR,Staple crops
+regional root_tuber,RootTuber,Crop,Staples,Staple crops,Staple crops,OCR,Staple crops
+regional oilcrop,OilCrop,Crop,Other Crops,Oil crops,Oil crops,OSD,Oil crops
+regional soybean,Soybean,Crop,Other Crops,Oil crops,Oil crops,OSD,Oil crops
+regional oilpalm,OilPalm,Crop,Other Crops,Oil crops,Oil crops,OSD,Oil crops
+regional legumes,Legumes,Crop,Other Crops,Other crops,Other crops,OCR,Other crops
+regional fibercrop,FiberCrop,Crop,Other Crops,Other crops,Other crops,PFB,Other crops
+regional sugarcrop,SugarCrop,Crop,Other Crops,Other crops,Other crops,SGC,Other crops
+regional nuts_seeds,NutsSeeds,Crop,Other Crops,Other crops,Other crops,VFN,Other crops
+regional fruits,Fruits,Crop,Other Crops,Other crops,Other crops,VFN,Other crops
+regional vegetables,Vegetables,Crop,Other Crops,Other crops,Other crops,VFN,Other crops
+regional misccrop,MiscCrop,Crop,Other Crops,Other crops,Other crops,OCR,Other crops
+regional beef,Beef,Livestock,Livestock,Livestock,Livestock,RUM,Ruminants
+regional dairy,Dairy,Livestock,Livestock,Livestock,Livestock,DRY,Dairy
+regional sheepgoat,SheepGoat,Livestock,Livestock,Livestock,Livestock,RUM,Ruminants
+regional pork,Pork,Livestock,Livestock,Livestock,Livestock,NRM,Non-Ruminants
+regional poultry,Poultry,Livestock,Livestock,Livestock,Livestock,NRM,Non-Ruminants
+OtherMeat_Fish,OtherMeat_Fish,Livestock,Livestock,Livestock,Livestock,FSH_OAP,OtherMeat_Fish
+Pasture,Pasture,Pasture,Pasture,Pasture,Pasture,,Pasture
+FodderHerb,FodderHerb,Crop,Fodder,Fodder crops,Other crops,OCR,Other crops
+FodderGrass,FodderGrass,Crop,Fodder,Fodder crops,Other crops,OCR,Other crops
+,Forest,Forest,Forest,Forest,Forest,,Forest

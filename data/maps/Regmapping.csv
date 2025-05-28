@@ -1,0 +1,33 @@
+RegID,region,AgMIP13,REG_dev_ind,REG_WB_INCOME,REG,REG1,REG2,REG10_AR6_original,REG10_AR6,REG10_AR6_name,REG5_AR6,REG5_AR6_name
+G2,Africa_Eastern,SSA,Developing,Low/lower-middle,E. AFR,Africa_Eastern,Africa_Eastern,AFRICA,Africa,Countries of Sub-Saharan Africa,Middle East and Africa,Countries of the Middle East and Africa
+G3,Africa_Northern,MEN,Developing,Low/lower-middle,N. AFR,Africa_Northern,Africa_Northern,AFRICA,Africa,Countries of Sub-Saharan Africa,Middle East and Africa,Countries of the Middle East and Africa
+G4,Africa_Southern,SSA,Developing,Low/lower-middle,S. AFR,Africa_Southern,Africa_Southern,AFRICA,Africa,Countries of Sub-Saharan Africa,Middle East and Africa,Countries of the Middle East and Africa
+G5,Africa_Western,SSA,Developing,Low/lower-middle,W. AFR,Africa_Western,Africa_Western,AFRICA,Africa,Countries of Sub-Saharan Africa,Middle East and Africa,Countries of the Middle East and Africa
+G24,South Africa,SSA,Developing,Upper-middle,South Africa,South Africa,South Africa,AFRICA,Africa,Countries of Sub-Saharan Africa,Middle East and Africa,Countries of the Middle East and Africa
+G11,China,CHN,Developing,Upper-middle,China,China,China,CHINA+,China,Countries of centrally-planned Asia; primarily China,Asia,Asian countries except Japan
+G30,Taiwan,SEA,Developing,High,China,China,Taiwan,CHINA+,China,Countries of centrally-planned Asia; primarily China,Asia,Asian countries except Japan
+G12,EU-12,EUR,Industrialized,High,EU12,EU-12,EU-12,EUROPE,Europe,"Eastern and Western Europe (i.e., the EU28)",OECD and EU,OECD90 and EU (and EU candidate) countries
+G13,EU-15,EUR,Industrialized,High,EU15,EU-15,EU-15,EUROPE,Europe,"Eastern and Western Europe (i.e., the EU28)",OECD and EU,OECD90 and EU (and EU candidate) countries
+G14,Europe_Eastern,FSU,Industrialized,Low/lower-middle,E. EUP,E. EUP,E. EUP,EUROPE,Europe,"Eastern and Western Europe (i.e., the EU28)",OECD and EU,OECD90 and EU (and EU candidate) countries
+G15,Europe_Non_EU,EUR,Industrialized,High,NEU,NEU,NEU,EUROPE,Europe,"Eastern and Western Europe (i.e., the EU28)",OECD and EU,OECD90 and EU (and EU candidate) countries
+G16,European Free Trade Association,EUR,Industrialized,High,EUP. FTA,EUP. FTA,EUP. FTA,EUROPE,Europe,"Eastern and Western Europe (i.e., the EU28)",OECD and EU,OECD90 and EU (and EU candidate) countries
+G17,India,IND,Developing,Low/lower-middle,India,India,India,INDIA+,South Asia,Countries of South Asia; primarily India,Asia,Asian countries except Japan
+G27,South Asia,OAS,Developing,Low/lower-middle,S. Asia,S. Asia,S. Asia,INDIA+,South Asia,Countries of South Asia; primarily India,Asia,Asian countries except Japan
+G31,Argentina,OSA,Developing,Upper-middle,Argentina,Argentina,Argentina,LATIN_AM,Latin America,Countries of Latin America and the Caribbean,Latin America,Latin American countries
+G7,Brazil,BRA,Developing,Upper-middle,Brazil,Brazil,Brazil,LATIN_AM,Latin America,Countries of Latin America and the Caribbean,Latin America,Latin American countries
+G9,Central America and Caribbean,OSA,Developing,Upper-middle,C. Amer,C. Amer.,C. Amer.,LATIN_AM,Latin America,Countries of Latin America and the Caribbean,Latin America,Latin American countries
+G32,Colombia,OSA,Developing,Upper-middle,Colombia,Colombia,Colombia,LATIN_AM,Latin America,Countries of Latin America and the Caribbean,Latin America,Latin American countries
+G20,Mexico,OSA,Industrialized,Upper-middle,Mexico,Mexico,Mexico,LATIN_AM,Latin America,Countries of Latin America and the Caribbean,Latin America,Latin American countries
+G25,South America_Northern,OSA,Developing,Low/lower-middle,N. S. Amer.,N. S. Amer.,N. S. Amer.,LATIN_AM,Latin America,Countries of Latin America and the Caribbean,Latin America,Latin American countries
+G26,South America_Southern,OSA,Developing,Upper-middle,S. S. Amer.,S. S. Amer.,S. S. Amer.,LATIN_AM,Latin America,Countries of Latin America and the Caribbean,Latin America,Latin American countries
+G21,Middle East,MEN,Developing,Upper-middle,M. East,Middle East,Middle East,MIDDLE_EAST,Middle East,"Countries of the Middle East; Iran, Iraq, Israel, Saudi Arabia, Qatar, etc.",Middle East and Africa,Countries of the Middle East and Africa
+G8,Canada,CAN,Industrialized,High,Canada,Canada,Canada,NORTH_AM,North America,North America; primarily the United States of America and Canada,OECD and EU,OECD90 and EU (and EU candidate) countries
+G1,USA,USA,Industrialized,High,USA,USA,USA,NORTH_AM,North America,North America; primarily the United States of America and Canada,OECD and EU,OECD90 and EU (and EU candidate) countries
+G6,Australia_NZ,ANZ,Industrialized,High,Australia,Australia,Australia,PAC_OECD,Pacific OECD,Pacific OECD,OECD and EU,OECD90 and EU (and EU candidate) countries
+G19,Japan,SEA,Industrialized,High,Japan,Japan,Japan,PAC_OECD,Pacific OECD,Pacific OECD,OECD and EU,OECD90 and EU (and EU candidate) countries
+G28,South Korea,SEA,Industrialized,High,S. Korea,S. Korea,S. Korea,PAC_OECD,Pacific OECD,Pacific OECD,OECD and EU,OECD90 and EU (and EU candidate) countries
+G10,Central Asia,FSU,Industrialized,Upper-middle,C. Asia,C. Asia,C. Asia,REF_ECON,Reforming,Reforming Economies of Eastern Europe and the Former Soviet Union; primarily Russia,Reforming economies,Countries from the Reforming Ecomonies of the Former Soviet Union
+G22,Pakistan,OAS,Developing,Low/lower-middle,Pakistan,Pakistan,Pakistan,INDIA+,South Asia,Countries of South Asia; primarily India,Reforming economies,Countries from the Reforming Ecomonies of the Former Soviet Union
+G23,Russia,FSU,Industrialized,Upper-middle,Russia,Russia,Russia,REF_ECON,Reforming,Reforming Economies of Eastern Europe and the Former Soviet Union; primarily Russia,Reforming economies,Countries from the Reforming Ecomonies of the Former Soviet Union
+G18,Indonesia,SEA,Developing,Low/lower-middle,Indonesia,Indonesia,Indonesia,REST_ASIA,Rest of Asia,Other countries of Asia,Asia,Asian countries except Japan
+G29,Southeast Asia,SEA,Developing,Low/lower-middle,SE. Asia,SE. Asia,SE. Asia,REST_ASIA,Rest of Asia,Other countries of Asia,Asia,Asian countries except Japan

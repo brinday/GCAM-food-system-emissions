@@ -1,0 +1,159 @@
+sector,sector1
+Resource production,FFI
+UnmanagedLand,Unmanaged Land
+agricultural energy use,FFI
+ammonia,Fertilizer
+comm heating,FFI
+comm others,FFI
+construction energy use,FFI
+electricity,FFI
+mining energy use,FFI
+other industrial energy use,FFI
+process heat cement,FFI
+process heat food processing,FFI
+resid heating TradBio_d1,FFI
+resid heating TradBio_d10,FFI
+resid heating TradBio_d2,FFI
+resid heating TradBio_d3,FFI
+resid heating TradBio_d4,FFI
+resid heating TradBio_d5,FFI
+resid heating TradBio_d6,FFI
+resid heating TradBio_d7,FFI
+resid heating TradBio_d8,FFI
+resid heating TradBio_d9,FFI
+resid heating modern_d1,FFI
+resid heating modern_d10,FFI
+resid heating modern_d2,FFI
+resid heating modern_d3,FFI
+resid heating modern_d4,FFI
+resid heating modern_d5,FFI
+resid heating modern_d6,FFI
+resid heating modern_d7,FFI
+resid heating modern_d8,FFI
+resid heating modern_d9,FFI
+resid others TradBio_d1,FFI
+resid others TradBio_d10,FFI
+resid others TradBio_d2,FFI
+resid others TradBio_d3,FFI
+resid others TradBio_d4,FFI
+resid others TradBio_d5,FFI
+resid others TradBio_d6,FFI
+resid others TradBio_d7,FFI
+resid others TradBio_d8,FFI
+resid others TradBio_d9,FFI
+resid others coal_d1,FFI
+resid others coal_d10,FFI
+resid others coal_d2,FFI
+resid others coal_d3,FFI
+resid others coal_d4,FFI
+resid others coal_d5,FFI
+resid others coal_d6,FFI
+resid others coal_d7,FFI
+resid others coal_d8,FFI
+resid others coal_d9,FFI
+resid others modern_d1,FFI
+resid others modern_d10,FFI
+resid others modern_d2,FFI
+resid others modern_d3,FFI
+resid others modern_d4,FFI
+resid others modern_d5,FFI
+resid others modern_d6,FFI
+resid others modern_d7,FFI
+resid others modern_d8,FFI
+resid others modern_d9,FFI
+trn_aviation_intl,FFI
+trn_freight,FFI
+trn_freight_road,FFI
+trn_pass,FFI
+trn_pass_road,FFI
+trn_pass_road_LDV,FFI
+trn_pass_road_LDV_4W,FFI
+trn_shipping_intl,FFI
+urban processes,FFI
+Corn,Crops
+FiberCrop,Crops
+Fruits,Crops
+Legumes,Crops
+MiscCrop,Crops
+NutsSeeds,Crops
+OilCrop,Crops
+OilPalm,Crops
+OtherGrain,Crops
+Rice,Crops
+RootTuber,Crops
+Soybean,Crops
+SugarCrop,Crops
+Vegetables,Crops
+Wheat,Crops
+industrial processes,FFI
+H2 central production,FFI
+backup_electricity,FFI
+refining,FFI
+Beef,Livestock
+Dairy,Livestock
+Pork,Livestock
+Poultry,Livestock
+SheepGoat,Livestock
+H2 wholesale dispensing,FFI
+airCO2,FFI
+cement,FFI
+desalinated water,FFI
+elec_biomass (IGCC CCS),FFI
+elec_biomass (IGCC),FFI
+elec_biomass (conv CCS),FFI
+elec_biomass (conv),FFI
+elec_coal (IGCC CCS),FFI
+elec_coal (IGCC),FFI
+elec_coal (conv pul CCS),FFI
+elec_coal (conv pul),FFI
+elec_gas (CC CCS),FFI
+elec_gas (CC),FFI
+elec_gas (steam/CT),FFI
+elec_refined liquids (CC CCS),FFI
+elec_refined liquids (CC),FFI
+elec_refined liquids (steam/CT),FFI
+gas processing,FFI
+iron and steel,FFI
+other industrial feedstocks,FFI
+process heat dac,FFI
+regional biomass,2G bio-feedstock
+regional biomassOil,1G bio-feedstock
+regional corn for ethanol,1G bio-feedstock
+regional woodpulp for energy,FFI
+waste biomass for paper,FFI
+LULUCF,LULUCF
+H2 liquid truck,FFI
+H2 pipeline,FFI
+comm cooling,FFI
+resid cooling modern_d1,FFI
+resid cooling modern_d10,FFI
+resid cooling modern_d2,FFI
+resid cooling modern_d3,FFI
+resid cooling modern_d4,FFI
+resid cooling modern_d5,FFI
+resid cooling modern_d6,FFI
+resid cooling modern_d7,FFI
+resid cooling modern_d8,FFI
+resid cooling modern_d9,FFI
+FodderGrass,Crops
+FodderHerb,Crops
+biomass,2G bio-feedstock
+electricity_net_ownuse,FFI
+alumina,FFI
+chemical energy use,FFI
+process heat paper,FFI
+chemical feedstocks,FFI
+csp_backup,FFI
+gas pipeline,FFI
+regional sugar for ethanol,1G bio-feedstock
+resid heating coal_d1,FFI
+resid heating coal_d10,FFI
+resid heating coal_d2,FFI
+resid heating coal_d3,FFI
+resid heating coal_d4,FFI
+resid heating coal_d5,FFI
+resid heating coal_d6,FFI
+resid heating coal_d7,FFI
+resid heating coal_d8,FFI
+resid heating coal_d9,FFI
+district heat,FFI

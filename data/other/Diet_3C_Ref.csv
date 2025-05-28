@@ -1,0 +1,2005 @@
+"scenario","region","technology","year","value"
+"3C","Africa_Eastern","Beef",2015,2.63991
+"3C","Africa_Eastern","Beef",2020,3.16227
+"3C","Africa_Eastern","Beef",2025,3.69221
+"3C","Africa_Eastern","Corn",2015,34.44
+"3C","Africa_Eastern","Corn",2020,39.2283
+"3C","Africa_Eastern","Corn",2025,43.7802
+"3C","Africa_Eastern","Dairy",2015,9.31866
+"3C","Africa_Eastern","Dairy",2020,11.0542
+"3C","Africa_Eastern","Dairy",2025,12.7567
+"3C","Africa_Eastern","FiberCrop",2015,0.194868
+"3C","Africa_Eastern","FiberCrop",2020,0.230586
+"3C","Africa_Eastern","FiberCrop",2025,0.266026
+"3C","Africa_Eastern","Fruits",2015,7.17402
+"3C","Africa_Eastern","Fruits",2020,8.49662
+"3C","Africa_Eastern","Fruits",2025,9.75624
+"3C","Africa_Eastern","Legumes",2015,14.4568
+"3C","Africa_Eastern","Legumes",2020,17.1952
+"3C","Africa_Eastern","Legumes",2025,19.8914
+"3C","Africa_Eastern","MiscCrop",2015,0.932329
+"3C","Africa_Eastern","MiscCrop",2020,1.10417
+"3C","Africa_Eastern","MiscCrop",2025,1.26888
+"3C","Africa_Eastern","NutsSeeds",2015,3.83925
+"3C","Africa_Eastern","NutsSeeds",2020,4.58448
+"3C","Africa_Eastern","NutsSeeds",2025,5.35736
+"3C","Africa_Eastern","OilCrop",2015,4.45701
+"3C","Africa_Eastern","OilCrop",2020,5.33505
+"3C","Africa_Eastern","OilCrop",2025,6.23385
+"3C","Africa_Eastern","OilPalm",2015,5.32338
+"3C","Africa_Eastern","OilPalm",2020,6.32783
+"3C","Africa_Eastern","OilPalm",2025,7.31442
+"3C","Africa_Eastern","OtherGrain",2015,40.2973
+"3C","Africa_Eastern","OtherGrain",2020,45.8521
+"3C","Africa_Eastern","OtherGrain",2025,50.9931
+"3C","Africa_Eastern","OtherMeat_Fish",2015,2.31194
+"3C","Africa_Eastern","OtherMeat_Fish",2020,2.73579
+"3C","Africa_Eastern","OtherMeat_Fish",2025,3.13553
+"3C","Africa_Eastern","Pork",2015,0.366261
+"3C","Africa_Eastern","Pork",2020,0.438027
+"3C","Africa_Eastern","Pork",2025,0.507047
+"3C","Africa_Eastern","Poultry",2015,0.711122
+"3C","Africa_Eastern","Poultry",2020,0.85042
+"3C","Africa_Eastern","Poultry",2025,0.983902
+"3C","Africa_Eastern","Rice",2015,14.3193
+"3C","Africa_Eastern","Rice",2020,16.3268
+"3C","Africa_Eastern","Rice",2025,18.1936
+"3C","Africa_Eastern","RootTuber",2015,18.9705
+"3C","Africa_Eastern","RootTuber",2020,21.6378
+"3C","Africa_Eastern","RootTuber",2025,24.0376
+"3C","Africa_Eastern","SheepGoat",2015,1.12521
+"3C","Africa_Eastern","SheepGoat",2020,1.32988
+"3C","Africa_Eastern","SheepGoat",2025,1.52445
+"3C","Africa_Eastern","Soybean",2015,0.717121
+"3C","Africa_Eastern","Soybean",2020,0.857066
+"3C","Africa_Eastern","Soybean",2025,0.998183
+"3C","Africa_Eastern","SugarCrop",2015,13.4468
+"3C","Africa_Eastern","SugarCrop",2020,15.8884
+"3C","Africa_Eastern","SugarCrop",2025,18.2498
+"3C","Africa_Eastern","Vegetables",2015,2.55918
+"3C","Africa_Eastern","Vegetables",2020,3.03134
+"3C","Africa_Eastern","Vegetables",2025,3.48088
+"3C","Africa_Eastern","Wheat",2015,26.4055
+"3C","Africa_Eastern","Wheat",2020,30.3379
+"3C","Africa_Eastern","Wheat",2025,33.9801
+"3C","Africa_Northern","Beef",2015,2.00074
+"3C","Africa_Northern","Beef",2020,2.24973
+"3C","Africa_Northern","Beef",2025,2.49209
+"3C","Africa_Northern","Corn",2015,18.8386
+"3C","Africa_Northern","Corn",2020,20.4431
+"3C","Africa_Northern","Corn",2025,21.7562
+"3C","Africa_Northern","Dairy",2015,8.02512
+"3C","Africa_Northern","Dairy",2020,9.00864
+"3C","Africa_Northern","Dairy",2025,9.98122
+"3C","Africa_Northern","FiberCrop",2015,0.0037612
+"3C","Africa_Northern","FiberCrop",2020,0.00421234
+"3C","Africa_Northern","FiberCrop",2025,0.00466001
+"3C","Africa_Northern","Fruits",2015,7.96883
+"3C","Africa_Northern","Fruits",2020,8.93801
+"3C","Africa_Northern","Fruits",2025,9.89051
+"3C","Africa_Northern","Legumes",2015,2.62068
+"3C","Africa_Northern","Legumes",2020,2.95554
+"3C","Africa_Northern","Legumes",2025,3.28685
+"3C","Africa_Northern","MiscCrop",2015,0.695943
+"3C","Africa_Northern","MiscCrop",2020,0.784417
+"3C","Africa_Northern","MiscCrop",2025,0.870323
+"3C","Africa_Northern","NutsSeeds",2015,1.51363
+"3C","Africa_Northern","NutsSeeds",2020,1.69967
+"3C","Africa_Northern","NutsSeeds",2025,1.89143
+"3C","Africa_Northern","OilCrop",2015,4.8888
+"3C","Africa_Northern","OilCrop",2020,5.49064
+"3C","Africa_Northern","OilCrop",2025,6.1025
+"3C","Africa_Northern","OilPalm",2015,0.34605
+"3C","Africa_Northern","OilPalm",2020,0.389722
+"3C","Africa_Northern","OilPalm",2025,0.433007
+"3C","Africa_Northern","OtherGrain",2015,4.33275
+"3C","Africa_Northern","OtherGrain",2020,4.70502
+"3C","Africa_Northern","OtherGrain",2025,5.00805
+"3C","Africa_Northern","OtherMeat_Fish",2015,2.55219
+"3C","Africa_Northern","OtherMeat_Fish",2020,2.8695
+"3C","Africa_Northern","OtherMeat_Fish",2025,3.17481
+"3C","Africa_Northern","Pork",2015,0.0033926
+"3C","Africa_Northern","Pork",2020,0.00383076
+"3C","Africa_Northern","Pork",2025,0.00425488
+"3C","Africa_Northern","Poultry",2015,3.56802
+"3C","Africa_Northern","Poultry",2020,4.0186
+"3C","Africa_Northern","Poultry",2025,4.47574
+"3C","Africa_Northern","Rice",2015,9.63055
+"3C","Africa_Northern","Rice",2020,10.3594
+"3C","Africa_Northern","Rice",2025,10.981
+"3C","Africa_Northern","RootTuber",2015,3.76582
+"3C","Africa_Northern","RootTuber",2020,4.06953
+"3C","Africa_Northern","RootTuber",2025,4.30974
+"3C","Africa_Northern","SheepGoat",2015,1.03669
+"3C","Africa_Northern","SheepGoat",2020,1.16522
+"3C","Africa_Northern","SheepGoat",2025,1.28987
+"3C","Africa_Northern","Soybean",2015,7.23523
+"3C","Africa_Northern","Soybean",2020,8.18268
+"3C","Africa_Northern","Soybean",2025,9.15617
+"3C","Africa_Northern","SugarCrop",2015,10.8485
+"3C","Africa_Northern","SugarCrop",2020,12.172
+"3C","Africa_Northern","SugarCrop",2025,13.5029
+"3C","Africa_Northern","Vegetables",2015,5.39308
+"3C","Africa_Northern","Vegetables",2020,6.06136
+"3C","Africa_Northern","Vegetables",2025,6.71298
+"3C","Africa_Northern","Wheat",2015,60.1136
+"3C","Africa_Northern","Wheat",2020,65.58
+"3C","Africa_Northern","Wheat",2025,70.0881
+"3C","Africa_Southern","Beef",2015,2.23095
+"3C","Africa_Southern","Beef",2020,2.54054
+"3C","Africa_Southern","Beef",2025,2.93297
+"3C","Africa_Southern","Corn",2015,32.4081
+"3C","Africa_Southern","Corn",2020,38.0208
+"3C","Africa_Southern","Corn",2025,43.0099
+"3C","Africa_Southern","Dairy",2015,2.29034
+"3C","Africa_Southern","Dairy",2020,2.60294
+"3C","Africa_Southern","Dairy",2025,2.99959
+"3C","Africa_Southern","FiberCrop",2015,0.391688
+"3C","Africa_Southern","FiberCrop",2020,0.446463
+"3C","Africa_Southern","FiberCrop",2025,0.518749
+"3C","Africa_Southern","Fruits",2015,3.50406
+"3C","Africa_Southern","Fruits",2020,3.98457
+"3C","Africa_Southern","Fruits",2025,4.60279
+"3C","Africa_Southern","Legumes",2015,5.49569
+"3C","Africa_Southern","Legumes",2020,6.33098
+"3C","Africa_Southern","Legumes",2025,7.41854
+"3C","Africa_Southern","MiscCrop",2015,0.169423
+"3C","Africa_Southern","MiscCrop",2020,0.192641
+"3C","Africa_Southern","MiscCrop",2025,0.222726
+"3C","Africa_Southern","NutsSeeds",2015,3.74039
+"3C","Africa_Southern","NutsSeeds",2020,4.29306
+"3C","Africa_Southern","NutsSeeds",2025,5.02546
+"3C","Africa_Southern","OilCrop",2015,3.54499
+"3C","Africa_Southern","OilCrop",2020,4.03856
+"3C","Africa_Southern","OilCrop",2025,4.68947
+"3C","Africa_Southern","OilPalm",2015,3.90502
+"3C","Africa_Southern","OilPalm",2020,4.45279
+"3C","Africa_Southern","OilPalm",2025,5.16343
+"3C","Africa_Southern","OtherGrain",2015,3.66215
+"3C","Africa_Southern","OtherGrain",2020,4.28037
+"3C","Africa_Southern","OtherGrain",2025,4.84019
+"3C","Africa_Southern","OtherMeat_Fish",2015,1.72829
+"3C","Africa_Southern","OtherMeat_Fish",2020,1.95349
+"3C","Africa_Southern","OtherMeat_Fish",2025,2.24173
+"3C","Africa_Southern","Pork",2015,1.14421
+"3C","Africa_Southern","Pork",2020,1.3003
+"3C","Africa_Southern","Pork",2025,1.49919
+"3C","Africa_Southern","Poultry",2015,1.09966
+"3C","Africa_Southern","Poultry",2020,1.24757
+"3C","Africa_Southern","Poultry",2025,1.4395
+"3C","Africa_Southern","Rice",2015,7.56004
+"3C","Africa_Southern","Rice",2020,8.79977
+"3C","Africa_Southern","Rice",2025,9.92129
+"3C","Africa_Southern","RootTuber",2015,20.9533
+"3C","Africa_Southern","RootTuber",2020,24.3575
+"3C","Africa_Southern","RootTuber",2025,27.313
+"3C","Africa_Southern","SheepGoat",2015,0.210869
+"3C","Africa_Southern","SheepGoat",2020,0.238107
+"3C","Africa_Southern","SheepGoat",2025,0.273068
+"3C","Africa_Southern","Soybean",2015,2.27142
+"3C","Africa_Southern","Soybean",2020,2.58763
+"3C","Africa_Southern","Soybean",2025,3.01496
+"3C","Africa_Southern","SugarCrop",2015,6.51498
+"3C","Africa_Southern","SugarCrop",2020,7.41218
+"3C","Africa_Southern","SugarCrop",2025,8.58706
+"3C","Africa_Southern","Vegetables",2015,1.02947
+"3C","Africa_Southern","Vegetables",2020,1.169
+"3C","Africa_Southern","Vegetables",2025,1.34876
+"3C","Africa_Southern","Wheat",2015,7.99606
+"3C","Africa_Southern","Wheat",2020,9.34922
+"3C","Africa_Southern","Wheat",2025,10.5769
+"3C","Africa_Western","Beef",2015,2.10882
+"3C","Africa_Western","Beef",2020,2.43216
+"3C","Africa_Western","Beef",2025,2.81558
+"3C","Africa_Western","Corn",2015,36.1923
+"3C","Africa_Western","Corn",2020,41.6527
+"3C","Africa_Western","Corn",2025,46.8157
+"3C","Africa_Western","Dairy",2015,2.93981
+"3C","Africa_Western","Dairy",2020,3.37961
+"3C","Africa_Western","Dairy",2025,3.89998
+"3C","Africa_Western","FiberCrop",2015,1.37815
+"3C","Africa_Western","FiberCrop",2020,1.59949
+"3C","Africa_Western","FiberCrop",2025,1.86417
+"3C","Africa_Western","Fruits",2015,10.9278
+"3C","Africa_Western","Fruits",2020,12.5996
+"3C","Africa_Western","Fruits",2025,14.5733
+"3C","Africa_Western","Legumes",2015,12.4133
+"3C","Africa_Western","Legumes",2020,14.419
+"3C","Africa_Western","Legumes",2025,16.7889
+"3C","Africa_Western","MiscCrop",2015,0.938086
+"3C","Africa_Western","MiscCrop",2020,1.08302
+"3C","Africa_Western","MiscCrop",2025,1.25447
+"3C","Africa_Western","NutsSeeds",2015,18.5684
+"3C","Africa_Western","NutsSeeds",2020,21.4266
+"3C","Africa_Western","NutsSeeds",2025,24.853
+"3C","Africa_Western","OilCrop",2015,6.45222
+"3C","Africa_Western","OilCrop",2020,7.49987
+"3C","Africa_Western","OilCrop",2025,8.7636
+"3C","Africa_Western","OilPalm",2015,19.84
+"3C","Africa_Western","OilPalm",2020,22.9514
+"3C","Africa_Western","OilPalm",2025,26.6725
+"3C","Africa_Western","OtherGrain",2015,43.5636
+"3C","Africa_Western","OtherGrain",2020,50.1139
+"3C","Africa_Western","OtherGrain",2025,56.3597
+"3C","Africa_Western","OtherMeat_Fish",2015,4.47134
+"3C","Africa_Western","OtherMeat_Fish",2020,5.1372
+"3C","Africa_Western","OtherMeat_Fish",2025,5.92014
+"3C","Africa_Western","Pork",2015,0.917281
+"3C","Africa_Western","Pork",2020,1.06864
+"3C","Africa_Western","Pork",2025,1.24867
+"3C","Africa_Western","Poultry",2015,1.91919
+"3C","Africa_Western","Poultry",2020,2.22378
+"3C","Africa_Western","Poultry",2025,2.5868
+"3C","Africa_Western","Rice",2015,42.9752
+"3C","Africa_Western","Rice",2020,49.4737
+"3C","Africa_Western","Rice",2025,55.7183
+"3C","Africa_Western","RootTuber",2015,95.8699
+"3C","Africa_Western","RootTuber",2020,110.157
+"3C","Africa_Western","RootTuber",2025,123.562
+"3C","Africa_Western","SheepGoat",2015,1.22307
+"3C","Africa_Western","SheepGoat",2020,1.40551
+"3C","Africa_Western","SheepGoat",2025,1.61989
+"3C","Africa_Western","Soybean",2015,2.0473
+"3C","Africa_Western","Soybean",2020,2.37687
+"3C","Africa_Western","Soybean",2025,2.77025
+"3C","Africa_Western","SugarCrop",2015,13.2292
+"3C","Africa_Western","SugarCrop",2020,15.2535
+"3C","Africa_Western","SugarCrop",2025,17.6918
+"3C","Africa_Western","Vegetables",2015,4.93757
+"3C","Africa_Western","Vegetables",2020,5.69165
+"3C","Africa_Western","Vegetables",2025,6.58185
+"3C","Africa_Western","Wheat",2015,19.6158
+"3C","Africa_Western","Wheat",2020,22.6793
+"3C","Africa_Western","Wheat",2025,25.6609
+"3C","Argentina","Beef",2015,3.25416
+"3C","Argentina","Beef",2020,3.32531
+"3C","Argentina","Beef",2025,3.47282
+"3C","Argentina","Corn",2015,1.15426
+"3C","Argentina","Corn",2020,1.21185
+"3C","Argentina","Corn",2025,1.22132
+"3C","Argentina","Dairy",2015,2.89686
+"3C","Argentina","Dairy",2020,2.96172
+"3C","Argentina","Dairy",2025,3.09793
+"3C","Argentina","FiberCrop",2015,0.0203349
+"3C","Argentina","FiberCrop",2020,0.0209105
+"3C","Argentina","FiberCrop",2025,0.0220962
+"3C","Argentina","Fruits",2015,0.864336
+"3C","Argentina","Fruits",2020,0.882656
+"3C","Argentina","Fruits",2025,0.922662
+"3C","Argentina","Legumes",2015,0.214189
+"3C","Argentina","Legumes",2020,0.219977
+"3C","Argentina","Legumes",2025,0.231116
+"3C","Argentina","MiscCrop",2015,0.142495
+"3C","Argentina","MiscCrop",2020,0.145575
+"3C","Argentina","MiscCrop",2025,0.152381
+"3C","Argentina","NutsSeeds",2015,0.0685418
+"3C","Argentina","NutsSeeds",2020,0.0703418
+"3C","Argentina","NutsSeeds",2025,0.0740904
+"3C","Argentina","OilCrop",2015,2.91058
+"3C","Argentina","OilCrop",2020,3.00199
+"3C","Argentina","OilCrop",2025,3.1767
+"3C","Argentina","OtherGrain",2015,0.676588
+"3C","Argentina","OtherGrain",2020,0.710782
+"3C","Argentina","OtherGrain",2025,0.718686
+"3C","Argentina","OtherMeat_Fish",2015,0.520748
+"3C","Argentina","OtherMeat_Fish",2020,0.530877
+"3C","Argentina","OtherMeat_Fish",2025,0.554306
+"3C","Argentina","Pork",2015,1.24639
+"3C","Argentina","Pork",2020,1.2759
+"3C","Argentina","Pork",2025,1.33629
+"3C","Argentina","Poultry",2015,2.2766
+"3C","Argentina","Poultry",2020,2.32486
+"3C","Argentina","Poultry",2025,2.44217
+"3C","Argentina","Rice",2015,0.995132
+"3C","Argentina","Rice",2020,1.04311
+"3C","Argentina","Rice",2025,1.05131
+"3C","Argentina","RootTuber",2015,1.04174
+"3C","Argentina","RootTuber",2020,1.08989
+"3C","Argentina","RootTuber",2025,1.09632
+"3C","Argentina","SheepGoat",2015,0.089906
+"3C","Argentina","SheepGoat",2020,0.0919106
+"3C","Argentina","SheepGoat",2025,0.0959575
+"3C","Argentina","Soybean",2015,0.706239
+"3C","Argentina","Soybean",2020,0.725859
+"3C","Argentina","Soybean",2025,0.765272
+"3C","Argentina","SugarCrop",2015,4.47796
+"3C","Argentina","SugarCrop",2020,4.57088
+"3C","Argentina","SugarCrop",2025,4.77921
+"3C","Argentina","Vegetables",2015,0.52616
+"3C","Argentina","Vegetables",2020,0.537694
+"3C","Argentina","Vegetables",2025,0.562281
+"3C","Argentina","Wheat",2015,9.21105
+"3C","Argentina","Wheat",2020,9.71757
+"3C","Argentina","Wheat",2025,9.86535
+"3C","Australia_NZ","Beef",2015,1.11276
+"3C","Australia_NZ","Beef",2020,1.20332
+"3C","Australia_NZ","Beef",2025,1.25657
+"3C","Australia_NZ","Corn",2015,0.303111
+"3C","Australia_NZ","Corn",2020,0.324556
+"3C","Australia_NZ","Corn",2025,0.334004
+"3C","Australia_NZ","Dairy",2015,3.64203
+"3C","Australia_NZ","Dairy",2020,3.93688
+"3C","Australia_NZ","Dairy",2025,4.10733
+"3C","Australia_NZ","FiberCrop",2015,0.442374
+"3C","Australia_NZ","FiberCrop",2020,0.478455
+"3C","Australia_NZ","FiberCrop",2025,0.499567
+"3C","Australia_NZ","Fruits",2015,0.754164
+"3C","Australia_NZ","Fruits",2020,0.81552
+"3C","Australia_NZ","Fruits",2025,0.850544
+"3C","Australia_NZ","Legumes",2015,0.0893089
+"3C","Australia_NZ","Legumes",2020,0.0977867
+"3C","Australia_NZ","Legumes",2025,0.103277
+"3C","Australia_NZ","MiscCrop",2015,0.39595
+"3C","Australia_NZ","MiscCrop",2020,0.428564
+"3C","Australia_NZ","MiscCrop",2025,0.447669
+"3C","Australia_NZ","NutsSeeds",2015,0.616773
+"3C","Australia_NZ","NutsSeeds",2020,0.66887
+"3C","Australia_NZ","NutsSeeds",2025,0.704791
+"3C","Australia_NZ","OilCrop",2015,2.23496
+"3C","Australia_NZ","OilCrop",2020,2.43309
+"3C","Australia_NZ","OilCrop",2025,2.56733
+"3C","Australia_NZ","OilPalm",2015,0.5726
+"3C","Australia_NZ","OilPalm",2020,0.621096
+"3C","Australia_NZ","OilPalm",2025,0.64984
+"3C","Australia_NZ","OtherGrain",2015,0.974325
+"3C","Australia_NZ","OtherGrain",2020,1.06333
+"3C","Australia_NZ","OtherGrain",2025,1.1057
+"3C","Australia_NZ","OtherMeat_Fish",2015,1.03359
+"3C","Australia_NZ","OtherMeat_Fish",2020,1.11717
+"3C","Australia_NZ","OtherMeat_Fish",2025,1.16485
+"3C","Australia_NZ","Pork",2015,0.82037
+"3C","Australia_NZ","Pork",2020,0.890991
+"3C","Australia_NZ","Pork",2025,0.933112
+"3C","Australia_NZ","Poultry",2015,1.61991
+"3C","Australia_NZ","Poultry",2020,1.75913
+"3C","Australia_NZ","Poultry",2025,1.84248
+"3C","Australia_NZ","Rice",2015,0.681801
+"3C","Australia_NZ","Rice",2020,0.730667
+"3C","Australia_NZ","Rice",2025,0.747639
+"3C","Australia_NZ","RootTuber",2015,0.795653
+"3C","Australia_NZ","RootTuber",2020,0.854936
+"3C","Australia_NZ","RootTuber",2025,0.876791
+"3C","Australia_NZ","SheepGoat",2015,0.584532
+"3C","Australia_NZ","SheepGoat",2020,0.632628
+"3C","Australia_NZ","SheepGoat",2025,0.66051
+"3C","Australia_NZ","Soybean",2015,0.161608
+"3C","Australia_NZ","Soybean",2020,0.175974
+"3C","Australia_NZ","Soybean",2025,0.185674
+"3C","Australia_NZ","SugarCrop",2015,3.20054
+"3C","Australia_NZ","SugarCrop",2020,3.47044
+"3C","Australia_NZ","SugarCrop",2025,3.632
+"3C","Australia_NZ","Vegetables",2015,0.527554
+"3C","Australia_NZ","Vegetables",2020,0.570247
+"3C","Australia_NZ","Vegetables",2025,0.594579
+"3C","Australia_NZ","Wheat",2015,4.78568
+"3C","Australia_NZ","Wheat",2020,5.2032
+"3C","Australia_NZ","Wheat",2025,5.40331
+"3C","Brazil","Beef",2015,8.54916
+"3C","Brazil","Beef",2020,8.79687
+"3C","Brazil","Beef",2025,9.09096
+"3C","Brazil","Corn",2015,12.69
+"3C","Brazil","Corn",2020,13.2882
+"3C","Brazil","Corn",2025,13.4843
+"3C","Brazil","Dairy",2015,14.7228
+"3C","Brazil","Dairy",2020,15.1305
+"3C","Brazil","Dairy",2025,15.6224
+"3C","Brazil","FiberCrop",2015,1.81172
+"3C","Brazil","FiberCrop",2020,1.88318
+"3C","Brazil","FiberCrop",2025,1.96551
+"3C","Brazil","Fruits",2015,6.63041
+"3C","Brazil","Fruits",2020,6.82244
+"3C","Brazil","Fruits",2025,7.05177
+"3C","Brazil","Legumes",2015,6.77985
+"3C","Brazil","Legumes",2020,7.03062
+"3C","Brazil","Legumes",2025,7.32398
+"3C","Brazil","MiscCrop",2015,0.519515
+"3C","Brazil","MiscCrop",2020,0.535055
+"3C","Brazil","MiscCrop",2025,0.553492
+"3C","Brazil","NutsSeeds",2015,0.641905
+"3C","Brazil","NutsSeeds",2020,0.669325
+"3C","Brazil","NutsSeeds",2025,0.703209
+"3C","Brazil","OilCrop",2015,3.93642
+"3C","Brazil","OilCrop",2020,4.19113
+"3C","Brazil","OilCrop",2025,4.45664
+"3C","Brazil","OilPalm",2015,3.52484
+"3C","Brazil","OilPalm",2020,3.64793
+"3C","Brazil","OilPalm",2025,3.78544
+"3C","Brazil","OtherGrain",2015,5.10074
+"3C","Brazil","OtherGrain",2020,5.32836
+"3C","Brazil","OtherGrain",2025,5.40348
+"3C","Brazil","OtherMeat_Fish",2015,1.68383
+"3C","Brazil","OtherMeat_Fish",2020,1.72992
+"3C","Brazil","OtherMeat_Fish",2025,1.78543
+"3C","Brazil","Pork",2015,7.08715
+"3C","Brazil","Pork",2020,7.31085
+"3C","Brazil","Pork",2025,7.57014
+"3C","Brazil","Poultry",2015,10.5836
+"3C","Brazil","Poultry",2020,10.908
+"3C","Brazil","Poultry",2025,11.2938
+"3C","Brazil","Rice",2015,15.9719
+"3C","Brazil","Rice",2020,16.6484
+"3C","Brazil","Rice",2025,16.865
+"3C","Brazil","RootTuber",2015,7.78587
+"3C","Brazil","RootTuber",2020,8.07526
+"3C","Brazil","RootTuber",2025,8.12779
+"3C","Brazil","SheepGoat",2015,0.168924
+"3C","Brazil","SheepGoat",2020,0.173922
+"3C","Brazil","SheepGoat",2025,0.179739
+"3C","Brazil","Soybean",2015,16.5653
+"3C","Brazil","Soybean",2020,17.1798
+"3C","Brazil","Soybean",2025,17.9596
+"3C","Brazil","SugarCrop",2015,23.4704
+"3C","Brazil","SugarCrop",2020,24.1992
+"3C","Brazil","SugarCrop",2025,25.0791
+"3C","Brazil","Vegetables",2015,2.03877
+"3C","Brazil","Vegetables",2020,2.09903
+"3C","Brazil","Vegetables",2025,2.17066
+"3C","Brazil","Wheat",2015,19.1717
+"3C","Brazil","Wheat",2020,20.0339
+"3C","Brazil","Wheat",2025,20.39
+"3C","Canada","Beef",2015,0.984809
+"3C","Canada","Beef",2020,1.04246
+"3C","Canada","Beef",2025,1.07425
+"3C","Canada","Corn",2015,1.42655
+"3C","Canada","Corn",2020,1.50826
+"3C","Canada","Corn",2025,1.53504
+"3C","Canada","Dairy",2015,2.83008
+"3C","Canada","Dairy",2020,2.99637
+"3C","Canada","Dairy",2025,3.08709
+"3C","Canada","FiberCrop",2015,0.0041062
+"3C","Canada","FiberCrop",2020,0.00434612
+"3C","Canada","FiberCrop",2025,0.00447544
+"3C","Canada","Fruits",2015,1.05902
+"3C","Canada","Fruits",2020,1.12211
+"3C","Canada","Fruits",2025,1.15619
+"3C","Canada","Legumes",2015,0.767846
+"3C","Canada","Legumes",2020,0.815418
+"3C","Canada","Legumes",2025,0.843625
+"3C","Canada","MiscCrop",2015,0.299473
+"3C","Canada","MiscCrop",2020,0.317868
+"3C","Canada","MiscCrop",2025,0.328095
+"3C","Canada","NutsSeeds",2015,0.863604
+"3C","Canada","NutsSeeds",2020,0.919417
+"3C","Canada","NutsSeeds",2025,0.960108
+"3C","Canada","OilCrop",2015,3.87579
+"3C","Canada","OilCrop",2020,4.13504
+"3C","Canada","OilCrop",2025,4.31246
+"3C","Canada","OilPalm",2015,0
+"3C","Canada","OilPalm",2020,0
+"3C","Canada","OilPalm",2025,0
+"3C","Canada","OtherGrain",2015,0.960228
+"3C","Canada","OtherGrain",2020,1.01918
+"3C","Canada","OtherGrain",2025,1.03805
+"3C","Canada","OtherMeat_Fish",2015,0.435453
+"3C","Canada","OtherMeat_Fish",2020,0.460751
+"3C","Canada","OtherMeat_Fish",2025,0.474245
+"3C","Canada","Pork",2015,1.98611
+"3C","Canada","Pork",2020,2.10744
+"3C","Canada","Pork",2025,2.17549
+"3C","Canada","Poultry",2015,1.76195
+"3C","Canada","Poultry",2020,1.86867
+"3C","Canada","Poultry",2025,1.92881
+"3C","Canada","Rice",2015,0.951442
+"3C","Canada","Rice",2020,1.00384
+"3C","Canada","Rice",2025,1.01915
+"3C","Canada","RootTuber",2015,1.3576
+"3C","Canada","RootTuber",2020,1.43444
+"3C","Canada","RootTuber",2025,1.45182
+"3C","Canada","SheepGoat",2015,0.0556421
+"3C","Canada","SheepGoat",2020,0.058906
+"3C","Canada","SheepGoat",2025,0.0611949
+"3C","Canada","Soybean",2015,0.238526
+"3C","Canada","Soybean",2020,0.255104
+"3C","Canada","Soybean",2025,0.26613
+"3C","Canada","SugarCrop",2015,3.34909
+"3C","Canada","SugarCrop",2020,3.55055
+"3C","Canada","SugarCrop",2025,3.67093
+"3C","Canada","Vegetables",2015,0.627072
+"3C","Canada","Vegetables",2020,0.664315
+"3C","Canada","Vegetables",2025,0.684513
+"3C","Canada","Wheat",2015,5.15372
+"3C","Canada","Wheat",2020,5.50415
+"3C","Canada","Wheat",2025,5.63969
+"3C","Central America and Caribbean","Beef",2015,1.21279
+"3C","Central America and Caribbean","Beef",2020,1.27433
+"3C","Central America and Caribbean","Beef",2025,1.3814
+"3C","Central America and Caribbean","Corn",2015,11.2466
+"3C","Central America and Caribbean","Corn",2020,11.9143
+"3C","Central America and Caribbean","Corn",2025,12.3138
+"3C","Central America and Caribbean","Dairy",2015,3.52338
+"3C","Central America and Caribbean","Dairy",2020,3.67866
+"3C","Central America and Caribbean","Dairy",2025,3.97152
+"3C","Central America and Caribbean","FiberCrop",2015,0.0088499
+"3C","Central America and Caribbean","FiberCrop",2020,0.00927513
+"3C","Central America and Caribbean","FiberCrop",2025,0.0100477
+"3C","Central America and Caribbean","Fruits",2015,3.77218
+"3C","Central America and Caribbean","Fruits",2020,3.94244
+"3C","Central America and Caribbean","Fruits",2025,4.25923
+"3C","Central America and Caribbean","Legumes",2015,3.06212
+"3C","Central America and Caribbean","Legumes",2020,3.23216
+"3C","Central America and Caribbean","Legumes",2025,3.52014
+"3C","Central America and Caribbean","MiscCrop",2015,0.338334
+"3C","Central America and Caribbean","MiscCrop",2020,0.354137
+"3C","Central America and Caribbean","MiscCrop",2025,0.383211
+"3C","Central America and Caribbean","NutsSeeds",2015,0.52805
+"3C","Central America and Caribbean","NutsSeeds",2020,0.551162
+"3C","Central America and Caribbean","NutsSeeds",2025,0.597442
+"3C","Central America and Caribbean","OilCrop",2015,1.2439
+"3C","Central America and Caribbean","OilCrop",2020,1.30747
+"3C","Central America and Caribbean","OilCrop",2025,1.4222
+"3C","Central America and Caribbean","OilPalm",2015,2.71966
+"3C","Central America and Caribbean","OilPalm",2020,2.84496
+"3C","Central America and Caribbean","OilPalm",2025,3.06928
+"3C","Central America and Caribbean","OtherGrain",2015,1.50796
+"3C","Central America and Caribbean","OtherGrain",2020,1.60101
+"3C","Central America and Caribbean","OtherGrain",2025,1.65878
+"3C","Central America and Caribbean","OtherMeat_Fish",2015,1.01586
+"3C","Central America and Caribbean","OtherMeat_Fish",2020,1.05958
+"3C","Central America and Caribbean","OtherMeat_Fish",2025,1.14334
+"3C","Central America and Caribbean","Pork",2015,1.52933
+"3C","Central America and Caribbean","Pork",2020,1.60179
+"3C","Central America and Caribbean","Pork",2025,1.7333
+"3C","Central America and Caribbean","Poultry",2015,3.02068
+"3C","Central America and Caribbean","Poultry",2020,3.15811
+"3C","Central America and Caribbean","Poultry",2025,3.41778
+"3C","Central America and Caribbean","Rice",2015,8.70327
+"3C","Central America and Caribbean","Rice",2020,9.16561
+"3C","Central America and Caribbean","Rice",2025,9.4386
+"3C","Central America and Caribbean","RootTuber",2015,2.71886
+"3C","Central America and Caribbean","RootTuber",2020,2.86904
+"3C","Central America and Caribbean","RootTuber",2025,2.95157
+"3C","Central America and Caribbean","SheepGoat",2015,0.0548234
+"3C","Central America and Caribbean","SheepGoat",2020,0.0573744
+"3C","Central America and Caribbean","SheepGoat",2025,0.0618554
+"3C","Central America and Caribbean","Soybean",2015,3.43792
+"3C","Central America and Caribbean","Soybean",2020,3.61919
+"3C","Central America and Caribbean","Soybean",2025,3.95691
+"3C","Central America and Caribbean","SugarCrop",2015,10.3569
+"3C","Central America and Caribbean","SugarCrop",2020,10.8407
+"3C","Central America and Caribbean","SugarCrop",2025,11.7204
+"3C","Central America and Caribbean","Vegetables",2015,0.970159
+"3C","Central America and Caribbean","Vegetables",2020,1.01386
+"3C","Central America and Caribbean","Vegetables",2025,1.09518
+"3C","Central America and Caribbean","Wheat",2015,7.61324
+"3C","Central America and Caribbean","Wheat",2020,8.07416
+"3C","Central America and Caribbean","Wheat",2025,8.36792
+"3C","Central Asia","Beef",2015,2.87836
+"3C","Central Asia","Beef",2020,3.14982
+"3C","Central Asia","Beef",2025,3.43479
+"3C","Central Asia","Corn",2015,1.43003
+"3C","Central Asia","Corn",2020,1.52731
+"3C","Central Asia","Corn",2025,1.60332
+"3C","Central Asia","Dairy",2015,10.2254
+"3C","Central Asia","Dairy",2020,11.139
+"3C","Central Asia","Dairy",2025,12.1084
+"3C","Central Asia","FiberCrop",2015,1.74954
+"3C","Central Asia","FiberCrop",2020,1.90717
+"3C","Central Asia","FiberCrop",2025,2.07598
+"3C","Central Asia","Fruits",2015,2.17514
+"3C","Central Asia","Fruits",2020,2.36826
+"3C","Central Asia","Fruits",2025,2.57274
+"3C","Central Asia","Legumes",2015,0.424024
+"3C","Central Asia","Legumes",2020,0.46405
+"3C","Central Asia","Legumes",2025,0.506202
+"3C","Central Asia","MiscCrop",2015,0.669975
+"3C","Central Asia","MiscCrop",2020,0.731643
+"3C","Central Asia","MiscCrop",2025,0.79684
+"3C","Central Asia","NutsSeeds",2015,0.53915
+"3C","Central Asia","NutsSeeds",2020,0.589291
+"3C","Central Asia","NutsSeeds",2025,0.645909
+"3C","Central Asia","OilCrop",2015,3.89351
+"3C","Central Asia","OilCrop",2020,4.27203
+"3C","Central Asia","OilCrop",2025,4.68434
+"3C","Central Asia","OilPalm",2015,0.0233417
+"3C","Central Asia","OilPalm",2020,0.0254715
+"3C","Central Asia","OilPalm",2025,0.0277944
+"3C","Central Asia","OtherGrain",2015,1.34647
+"3C","Central Asia","OtherGrain",2020,1.4465
+"3C","Central Asia","OtherGrain",2025,1.52471
+"3C","Central Asia","OtherMeat_Fish",2015,1.3408
+"3C","Central Asia","OtherMeat_Fish",2020,1.46163
+"3C","Central Asia","OtherMeat_Fish",2025,1.59001
+"3C","Central Asia","Pork",2015,0.483242
+"3C","Central Asia","Pork",2020,0.528901
+"3C","Central Asia","Pork",2025,0.57721
+"3C","Central Asia","Poultry",2015,1.26535
+"3C","Central Asia","Poultry",2020,1.38205
+"3C","Central Asia","Poultry",2025,1.50677
+"3C","Central Asia","Rice",2015,1.35045
+"3C","Central Asia","Rice",2020,1.4475
+"3C","Central Asia","Rice",2025,1.5257
+"3C","Central Asia","RootTuber",2015,3.14814
+"3C","Central Asia","RootTuber",2020,3.35663
+"3C","Central Asia","RootTuber",2025,3.52476
+"3C","Central Asia","SheepGoat",2015,1.22604
+"3C","Central Asia","SheepGoat",2020,1.33701
+"3C","Central Asia","SheepGoat",2025,1.45507
+"3C","Central Asia","Soybean",2015,0.181209
+"3C","Central Asia","Soybean",2020,0.198213
+"3C","Central Asia","Soybean",2025,0.216792
+"3C","Central Asia","SugarCrop",2015,5.11385
+"3C","Central Asia","SugarCrop",2020,5.58744
+"3C","Central Asia","SugarCrop",2025,6.10707
+"3C","Central Asia","Vegetables",2015,2.99041
+"3C","Central Asia","Vegetables",2020,3.25714
+"3C","Central Asia","Vegetables",2025,3.53954
+"3C","Central Asia","Wheat",2015,26.8549
+"3C","Central Asia","Wheat",2020,28.7454
+"3C","Central Asia","Wheat",2025,30.229
+"3C","China","Beef",2015,11.0067
+"3C","China","Beef",2020,12.2246
+"3C","China","Beef",2025,12.7475
+"3C","China","Corn",2015,21.0974
+"3C","China","Corn",2020,21.2923
+"3C","China","Corn",2025,21.0776
+"3C","China","Dairy",2015,21.6741
+"3C","China","Dairy",2020,24.0677
+"3C","China","Dairy",2025,25.058
+"3C","China","FiberCrop",2015,4.57812
+"3C","China","FiberCrop",2020,5.08472
+"3C","China","FiberCrop",2025,5.30278
+"3C","China","Fruits",2015,35.7946
+"3C","China","Fruits",2020,39.8197
+"3C","China","Fruits",2025,41.4632
+"3C","China","Legumes",2015,4.45593
+"3C","China","Legumes",2020,4.97667
+"3C","China","Legumes",2025,5.21053
+"3C","China","MiscCrop",2015,0.96326
+"3C","China","MiscCrop",2020,1.07301
+"3C","China","MiscCrop",2025,1.11915
+"3C","China","NutsSeeds",2015,35.7396
+"3C","China","NutsSeeds",2020,39.5479
+"3C","China","NutsSeeds",2025,41.3184
+"3C","China","OilCrop",2015,19.8352
+"3C","China","OilCrop",2020,22.154
+"3C","China","OilCrop",2025,23.2904
+"3C","China","OilPalm",2015,16.9777
+"3C","China","OilPalm",2020,18.9772
+"3C","China","OilPalm",2025,19.8684
+"3C","China","OtherGrain",2015,27.8473
+"3C","China","OtherGrain",2020,28.3277
+"3C","China","OtherGrain",2025,28.0941
+"3C","China","OtherMeat_Fish",2015,33.9975
+"3C","China","OtherMeat_Fish",2020,37.8497
+"3C","China","OtherMeat_Fish",2025,39.4021
+"3C","China","Pork",2015,102.85
+"3C","China","Pork",2020,114.704
+"3C","China","Pork",2025,119.605
+"3C","China","Poultry",2015,46.8141
+"3C","China","Poultry",2020,52.4663
+"3C","China","Poultry",2025,54.8931
+"3C","China","Rice",2015,307.419
+"3C","China","Rice",2020,310.071
+"3C","China","Rice",2025,306.425
+"3C","China","RootTuber",2015,51.9387
+"3C","China","RootTuber",2020,52.4681
+"3C","China","RootTuber",2025,51.8813
+"3C","China","SheepGoat",2015,5.78925
+"3C","China","SheepGoat",2020,6.44526
+"3C","China","SheepGoat",2025,6.72069
+"3C","China","Soybean",2015,36.6764
+"3C","China","Soybean",2020,41.1044
+"3C","China","Soybean",2025,43.3277
+"3C","China","SugarCrop",2015,28.4804
+"3C","China","SugarCrop",2020,31.7175
+"3C","China","SugarCrop",2025,33.1288
+"3C","China","Vegetables",2015,75.1949
+"3C","China","Vegetables",2020,83.6152
+"3C","China","Vegetables",2025,87.0443
+"3C","China","Wheat",2015,220.008
+"3C","China","Wheat",2020,224.231
+"3C","China","Wheat",2025,224.266
+"3C","Colombia","Beef",2015,1.24917
+"3C","Colombia","Beef",2020,1.33174
+"3C","Colombia","Beef",2025,1.41463
+"3C","Colombia","Corn",2015,3.3634
+"3C","Colombia","Corn",2020,3.63865
+"3C","Colombia","Corn",2025,3.69948
+"3C","Colombia","Dairy",2015,2.72127
+"3C","Colombia","Dairy",2020,2.90655
+"3C","Colombia","Dairy",2025,3.09474
+"3C","Colombia","FiberCrop",2015,0.0225812
+"3C","Colombia","FiberCrop",2020,0.0243359
+"3C","Colombia","FiberCrop",2025,0.0261331
+"3C","Colombia","Fruits",2015,3.00811
+"3C","Colombia","Fruits",2020,3.21623
+"3C","Colombia","Fruits",2025,3.42708
+"3C","Colombia","Legumes",2015,0.710332
+"3C","Colombia","Legumes",2020,0.763445
+"3C","Colombia","Legumes",2025,0.818381
+"3C","Colombia","MiscCrop",2015,0.189098
+"3C","Colombia","MiscCrop",2020,0.202488
+"3C","Colombia","MiscCrop",2025,0.216103
+"3C","Colombia","NutsSeeds",2015,0.086256
+"3C","Colombia","NutsSeeds",2020,0.0950741
+"3C","Colombia","NutsSeeds",2025,0.103586
+"3C","Colombia","OilCrop",2015,0.296775
+"3C","Colombia","OilCrop",2020,0.318127
+"3C","Colombia","OilCrop",2025,0.339738
+"3C","Colombia","OilPalm",2015,2.57787
+"3C","Colombia","OilPalm",2020,2.75892
+"3C","Colombia","OilPalm",2025,2.9475
+"3C","Colombia","OtherGrain",2015,0.830221
+"3C","Colombia","OtherGrain",2020,0.896879
+"3C","Colombia","OtherGrain",2025,0.91456
+"3C","Colombia","OtherMeat_Fish",2015,0.428725
+"3C","Colombia","OtherMeat_Fish",2020,0.457759
+"3C","Colombia","OtherMeat_Fish",2025,0.487296
+"3C","Colombia","Pork",2015,0.613584
+"3C","Colombia","Pork",2020,0.657354
+"3C","Colombia","Pork",2025,0.701892
+"3C","Colombia","Poultry",2015,1.94145
+"3C","Colombia","Poultry",2020,2.07523
+"3C","Colombia","Poultry",2025,2.2161
+"3C","Colombia","Rice",2015,3.66295
+"3C","Colombia","Rice",2020,3.97366
+"3C","Colombia","Rice",2025,4.0464
+"3C","Colombia","RootTuber",2015,2.38839
+"3C","Colombia","RootTuber",2020,2.58
+"3C","Colombia","RootTuber",2025,2.61196
+"3C","Colombia","SheepGoat",2015,0.009325
+"3C","Colombia","SheepGoat",2020,0.00997499
+"3C","Colombia","SheepGoat",2025,0.010634
+"3C","Colombia","Soybean",2015,1.2229
+"3C","Colombia","Soybean",2020,1.3168
+"3C","Colombia","Soybean",2025,1.41923
+"3C","Colombia","SugarCrop",2015,7.53662
+"3C","Colombia","SugarCrop",2020,8.07889
+"3C","Colombia","SugarCrop",2025,8.63339
+"3C","Colombia","Vegetables",2015,0.401947
+"3C","Colombia","Vegetables",2020,0.430303
+"3C","Colombia","Vegetables",2025,0.458917
+"3C","Colombia","Wheat",2015,2.84725
+"3C","Colombia","Wheat",2020,3.0975
+"3C","Colombia","Wheat",2025,3.16097
+"3C","EU-12","Beef",2015,0.502866
+"3C","EU-12","Beef",2020,0.506066
+"3C","EU-12","Beef",2025,0.513032
+"3C","EU-12","Corn",2015,1.87726
+"3C","EU-12","Corn",2020,1.8503
+"3C","EU-12","Corn",2025,1.83294
+"3C","EU-12","Dairy",2015,9.72446
+"3C","EU-12","Dairy",2020,9.80211
+"3C","EU-12","Dairy",2025,9.95074
+"3C","EU-12","FiberCrop",2015,0.0005605
+"3C","EU-12","FiberCrop",2020,0.000586976
+"3C","EU-12","FiberCrop",2025,0.000593334
+"3C","EU-12","Fruits",2015,1.7839
+"3C","EU-12","Fruits",2020,1.79694
+"3C","EU-12","Fruits",2025,1.82227
+"3C","EU-12","Legumes",2015,0.500861
+"3C","EU-12","Legumes",2020,0.512794
+"3C","EU-12","Legumes",2025,0.52866
+"3C","EU-12","MiscCrop",2015,0.805802
+"3C","EU-12","MiscCrop",2020,0.813808
+"3C","EU-12","MiscCrop",2025,0.828724
+"3C","EU-12","NutsSeeds",2015,0.611832
+"3C","EU-12","NutsSeeds",2020,0.617786
+"3C","EU-12","NutsSeeds",2025,0.634681
+"3C","EU-12","OilCrop",2015,5.23078
+"3C","EU-12","OilCrop",2020,5.28374
+"3C","EU-12","OilCrop",2025,5.41084
+"3C","EU-12","OilPalm",2015,0.115766
+"3C","EU-12","OilPalm",2020,0.117064
+"3C","EU-12","OilPalm",2025,0.119757
+"3C","EU-12","OtherGrain",2015,6.28811
+"3C","EU-12","OtherGrain",2020,6.21043
+"3C","EU-12","OtherGrain",2025,6.17818
+"3C","EU-12","OtherMeat_Fish",2015,1.28295
+"3C","EU-12","OtherMeat_Fish",2020,1.29183
+"3C","EU-12","OtherMeat_Fish",2025,1.30982
+"3C","EU-12","Pork",2015,8.13976
+"3C","EU-12","Pork",2020,8.23307
+"3C","EU-12","Pork",2025,8.38476
+"3C","EU-12","Poultry",2015,3.45219
+"3C","EU-12","Poultry",2020,3.49589
+"3C","EU-12","Poultry",2025,3.56195
+"3C","EU-12","Rice",2015,0.617518
+"3C","EU-12","Rice",2020,0.605043
+"3C","EU-12","Rice",2025,0.597227
+"3C","EU-12","RootTuber",2015,3.6878
+"3C","EU-12","RootTuber",2020,3.62779
+"3C","EU-12","RootTuber",2025,3.58443
+"3C","EU-12","SheepGoat",2015,0.148046
+"3C","EU-12","SheepGoat",2020,0.149127
+"3C","EU-12","SheepGoat",2025,0.151279
+"3C","EU-12","Soybean",2015,0.724837
+"3C","EU-12","Soybean",2020,0.735755
+"3C","EU-12","Soybean",2025,0.756945
+"3C","EU-12","SugarCrop",2015,8.33056
+"3C","EU-12","SugarCrop",2020,8.39977
+"3C","EU-12","SugarCrop",2025,8.57059
+"3C","EU-12","Vegetables",2015,1.79102
+"3C","EU-12","Vegetables",2020,1.80657
+"3C","EU-12","Vegetables",2025,1.83399
+"3C","EU-12","Wheat",2015,20.5007
+"3C","EU-12","Wheat",2020,20.2049
+"3C","EU-12","Wheat",2025,20.0608
+"3C","EU-15","Beef",2015,7.59262
+"3C","EU-15","Beef",2020,7.73365
+"3C","EU-15","Beef",2025,7.8842
+"3C","EU-15","Corn",2015,6.35997
+"3C","EU-15","Corn",2020,6.46095
+"3C","EU-15","Corn",2025,6.48263
+"3C","EU-15","Dairy",2015,45.7493
+"3C","EU-15","Dairy",2020,46.5139
+"3C","EU-15","Dairy",2025,47.3148
+"3C","EU-15","FiberCrop",2015,0.120047
+"3C","EU-15","FiberCrop",2020,0.122019
+"3C","EU-15","FiberCrop",2025,0.124041
+"3C","EU-15","Fruits",2015,11.1921
+"3C","EU-15","Fruits",2020,11.3723
+"3C","EU-15","Fruits",2025,11.5549
+"3C","EU-15","Legumes",2015,2.64309
+"3C","EU-15","Legumes",2020,2.70599
+"3C","EU-15","Legumes",2025,2.77163
+"3C","EU-15","MiscCrop",2015,4.79245
+"3C","EU-15","MiscCrop",2020,4.8883
+"3C","EU-15","MiscCrop",2025,4.97737
+"3C","EU-15","NutsSeeds",2015,6.08501
+"3C","EU-15","NutsSeeds",2020,6.20866
+"3C","EU-15","NutsSeeds",2025,6.38415
+"3C","EU-15","OilCrop",2015,29.6757
+"3C","EU-15","OilCrop",2020,30.1828
+"3C","EU-15","OilCrop",2025,30.8779
+"3C","EU-15","OilPalm",2015,1.74726
+"3C","EU-15","OilPalm",2020,1.78304
+"3C","EU-15","OilPalm",2025,1.82312
+"3C","EU-15","OtherGrain",2015,12.8503
+"3C","EU-15","OtherGrain",2020,13.0523
+"3C","EU-15","OtherGrain",2025,13.079
+"3C","EU-15","OtherMeat_Fish",2015,8.87069
+"3C","EU-15","OtherMeat_Fish",2020,9.00472
+"3C","EU-15","OtherMeat_Fish",2025,9.14371
+"3C","EU-15","Pork",2015,24.5432
+"3C","EU-15","Pork",2020,24.9923
+"3C","EU-15","Pork",2025,25.4539
+"3C","EU-15","Poultry",2015,13.4711
+"3C","EU-15","Poultry",2020,13.7285
+"3C","EU-15","Poultry",2025,13.9865
+"3C","EU-15","Rice",2015,5.66959
+"3C","EU-15","Rice",2020,5.73234
+"3C","EU-15","Rice",2025,5.72999
+"3C","EU-15","RootTuber",2015,11.7461
+"3C","EU-15","RootTuber",2020,11.8844
+"3C","EU-15","RootTuber",2025,11.8627
+"3C","EU-15","SheepGoat",2015,1.36902
+"3C","EU-15","SheepGoat",2020,1.39287
+"3C","EU-15","SheepGoat",2025,1.41797
+"3C","EU-15","Soybean",2015,8.04799
+"3C","EU-15","Soybean",2020,8.23087
+"3C","EU-15","Soybean",2025,8.46156
+"3C","EU-15","SugarCrop",2015,35.5892
+"3C","EU-15","SugarCrop",2020,36.1407
+"3C","EU-15","SugarCrop",2025,36.811
+"3C","EU-15","Vegetables",2015,6.90997
+"3C","EU-15","Vegetables",2020,7.03003
+"3C","EU-15","Vegetables",2025,7.14987
+"3C","EU-15","Wheat",2015,75.7217
+"3C","EU-15","Wheat",2020,76.9735
+"3C","EU-15","Wheat",2025,77.1886
+"3C","Europe_Eastern","Beef",2015,0.989286
+"3C","Europe_Eastern","Beef",2020,0.974227
+"3C","Europe_Eastern","Beef",2025,0.831466
+"3C","Europe_Eastern","Corn",2015,1.62493
+"3C","Europe_Eastern","Corn",2020,1.58427
+"3C","Europe_Eastern","Corn",2025,1.36873
+"3C","Europe_Eastern","Dairy",2015,5.71865
+"3C","Europe_Eastern","Dairy",2020,5.64656
+"3C","Europe_Eastern","Dairy",2025,4.79403
+"3C","Europe_Eastern","FiberCrop",2015,0
+"3C","Europe_Eastern","FiberCrop",2020,0
+"3C","Europe_Eastern","FiberCrop",2025,0
+"3C","Europe_Eastern","Fruits",2015,1.23452
+"3C","Europe_Eastern","Fruits",2020,1.2193
+"3C","Europe_Eastern","Fruits",2025,1.0332
+"3C","Europe_Eastern","Legumes",2015,0.276315
+"3C","Europe_Eastern","Legumes",2020,0.274172
+"3C","Europe_Eastern","Legumes",2025,0.234513
+"3C","Europe_Eastern","MiscCrop",2015,0.377169
+"3C","Europe_Eastern","MiscCrop",2020,0.373594
+"3C","Europe_Eastern","MiscCrop",2025,0.317268
+"3C","Europe_Eastern","NutsSeeds",2015,0.407635
+"3C","Europe_Eastern","NutsSeeds",2020,0.404049
+"3C","Europe_Eastern","NutsSeeds",2025,0.345932
+"3C","Europe_Eastern","OilCrop",2015,3.17584
+"3C","Europe_Eastern","OilCrop",2020,3.14906
+"3C","Europe_Eastern","OilCrop",2025,2.69122
+"3C","Europe_Eastern","OilPalm",2015,0.0011406
+"3C","Europe_Eastern","OilPalm",2020,0.00113182
+"3C","Europe_Eastern","OilPalm",2025,0.000963263
+"3C","Europe_Eastern","OtherGrain",2015,4.03195
+"3C","Europe_Eastern","OtherGrain",2020,3.9347
+"3C","Europe_Eastern","OtherGrain",2025,3.41262
+"3C","Europe_Eastern","OtherMeat_Fish",2015,1.1696
+"3C","Europe_Eastern","OtherMeat_Fish",2020,1.15368
+"3C","Europe_Eastern","OtherMeat_Fish",2025,0.975552
+"3C","Europe_Eastern","Pork",2015,2.47027
+"3C","Europe_Eastern","Pork",2020,2.44402
+"3C","Europe_Eastern","Pork",2025,2.0796
+"3C","Europe_Eastern","Poultry",2015,2.73674
+"3C","Europe_Eastern","Poultry",2020,2.71301
+"3C","Europe_Eastern","Poultry",2025,2.30598
+"3C","Europe_Eastern","Rice",2015,0.476287
+"3C","Europe_Eastern","Rice",2020,0.462184
+"3C","Europe_Eastern","Rice",2025,0.39778
+"3C","Europe_Eastern","RootTuber",2015,4.3072
+"3C","Europe_Eastern","RootTuber",2020,4.18891
+"3C","Europe_Eastern","RootTuber",2025,3.60235
+"3C","Europe_Eastern","SheepGoat",2015,0.0290489
+"3C","Europe_Eastern","SheepGoat",2020,0.0286554
+"3C","Europe_Eastern","SheepGoat",2025,0.0245603
+"3C","Europe_Eastern","Soybean",2015,0.322427
+"3C","Europe_Eastern","Soybean",2020,0.321622
+"3C","Europe_Eastern","Soybean",2025,0.276469
+"3C","Europe_Eastern","SugarCrop",2015,6.75695
+"3C","Europe_Eastern","SugarCrop",2020,6.68237
+"3C","Europe_Eastern","SugarCrop",2025,5.69457
+"3C","Europe_Eastern","Vegetables",2015,1.76593
+"3C","Europe_Eastern","Vegetables",2020,1.74406
+"3C","Europe_Eastern","Vegetables",2025,1.47914
+"3C","Europe_Eastern","Wheat",2015,14.8415
+"3C","Europe_Eastern","Wheat",2020,14.4875
+"3C","Europe_Eastern","Wheat",2025,12.5384
+"3C","Europe_Non_EU","Beef",2015,1.70272
+"3C","Europe_Non_EU","Beef",2020,1.81104
+"3C","Europe_Non_EU","Beef",2025,1.90935
+"3C","Europe_Non_EU","Corn",2015,4.49925
+"3C","Europe_Non_EU","Corn",2020,4.65102
+"3C","Europe_Non_EU","Corn",2025,4.70334
+"3C","Europe_Non_EU","Dairy",2015,10.1048
+"3C","Europe_Non_EU","Dairy",2020,10.6888
+"3C","Europe_Non_EU","Dairy",2025,11.2284
+"3C","Europe_Non_EU","FiberCrop",2015,0.902306
+"3C","Europe_Non_EU","FiberCrop",2020,0.958617
+"3C","Europe_Non_EU","FiberCrop",2025,1.01069
+"3C","Europe_Non_EU","Fruits",2015,3.32487
+"3C","Europe_Non_EU","Fruits",2020,3.53004
+"3C","Europe_Non_EU","Fruits",2025,3.71397
+"3C","Europe_Non_EU","Legumes",2015,2.53888
+"3C","Europe_Non_EU","Legumes",2020,2.70828
+"3C","Europe_Non_EU","Legumes",2025,2.8662
+"3C","Europe_Non_EU","MiscCrop",2015,0.968579
+"3C","Europe_Non_EU","MiscCrop",2020,1.03255
+"3C","Europe_Non_EU","MiscCrop",2025,1.0896
+"3C","Europe_Non_EU","NutsSeeds",2015,1.87374
+"3C","Europe_Non_EU","NutsSeeds",2020,1.98619
+"3C","Europe_Non_EU","NutsSeeds",2025,2.09628
+"3C","Europe_Non_EU","OilCrop",2015,5.6082
+"3C","Europe_Non_EU","OilCrop",2020,5.95952
+"3C","Europe_Non_EU","OilCrop",2025,6.30859
+"3C","Europe_Non_EU","OilPalm",2015,2.92033
+"3C","Europe_Non_EU","OilPalm",2020,3.10941
+"3C","Europe_Non_EU","OilPalm",2025,3.29141
+"3C","Europe_Non_EU","OtherGrain",2015,1.2757
+"3C","Europe_Non_EU","OtherGrain",2020,1.32044
+"3C","Europe_Non_EU","OtherGrain",2025,1.33636
+"3C","Europe_Non_EU","OtherMeat_Fish",2015,0.921717
+"3C","Europe_Non_EU","OtherMeat_Fish",2020,0.980304
+"3C","Europe_Non_EU","OtherMeat_Fish",2025,1.03313
+"3C","Europe_Non_EU","Pork",2015,0.811864
+"3C","Europe_Non_EU","Pork",2020,0.863391
+"3C","Europe_Non_EU","Pork",2025,0.9101
+"3C","Europe_Non_EU","Poultry",2015,2.61259
+"3C","Europe_Non_EU","Poultry",2020,2.78909
+"3C","Europe_Non_EU","Poultry",2025,2.94877
+"3C","Europe_Non_EU","Rice",2015,1.91817
+"3C","Europe_Non_EU","Rice",2020,1.97869
+"3C","Europe_Non_EU","Rice",2025,1.99939
+"3C","Europe_Non_EU","RootTuber",2015,2.17153
+"3C","Europe_Non_EU","RootTuber",2020,2.24441
+"3C","Europe_Non_EU","RootTuber",2025,2.26726
+"3C","Europe_Non_EU","SheepGoat",2015,0.66451
+"3C","Europe_Non_EU","SheepGoat",2020,0.707517
+"3C","Europe_Non_EU","SheepGoat",2025,0.746548
+"3C","Europe_Non_EU","Soybean",2015,0.0856566
+"3C","Europe_Non_EU","Soybean",2020,0.0916427
+"3C","Europe_Non_EU","Soybean",2025,0.0976608
+"3C","Europe_Non_EU","SugarCrop",2015,7.57429
+"3C","Europe_Non_EU","SugarCrop",2020,8.04249
+"3C","Europe_Non_EU","SugarCrop",2025,8.47734
+"3C","Europe_Non_EU","Vegetables",2015,2.97867
+"3C","Europe_Non_EU","Vegetables",2020,3.16231
+"3C","Europe_Non_EU","Vegetables",2025,3.32705
+"3C","Europe_Non_EU","Wheat",2015,31.1004
+"3C","Europe_Non_EU","Wheat",2020,32.3726
+"3C","Europe_Non_EU","Wheat",2025,33.0058
+"3C","European Free Trade Association","Beef",2015,0.313763
+"3C","European Free Trade Association","Beef",2020,0.328222
+"3C","European Free Trade Association","Beef",2025,0.339205
+"3C","European Free Trade Association","Corn",2015,0.0118065
+"3C","European Free Trade Association","Corn",2020,0.0123221
+"3C","European Free Trade Association","Corn",2025,0.0126045
+"3C","European Free Trade Association","Dairy",2015,1.88052
+"3C","European Free Trade Association","Dairy",2020,1.96732
+"3C","European Free Trade Association","Dairy",2025,2.03247
+"3C","European Free Trade Association","FiberCrop",2015,0.0001122
+"3C","European Free Trade Association","FiberCrop",2020,0.000117691
+"3C","European Free Trade Association","FiberCrop",2025,0.000121815
+"3C","European Free Trade Association","Fruits",2015,0.384664
+"3C","European Free Trade Association","Fruits",2020,0.402867
+"3C","European Free Trade Association","Fruits",2025,0.416297
+"3C","European Free Trade Association","Legumes",2015,0.108254
+"3C","European Free Trade Association","Legumes",2020,0.114561
+"3C","European Free Trade Association","Legumes",2025,0.119196
+"3C","European Free Trade Association","MiscCrop",2015,0.306516
+"3C","European Free Trade Association","MiscCrop",2020,0.323744
+"3C","European Free Trade Association","MiscCrop",2025,0.336546
+"3C","European Free Trade Association","NutsSeeds",2015,0.28457
+"3C","European Free Trade Association","NutsSeeds",2020,0.299565
+"3C","European Free Trade Association","NutsSeeds",2025,0.313125
+"3C","European Free Trade Association","OilCrop",2015,0.814408
+"3C","European Free Trade Association","OilCrop",2020,0.852801
+"3C","European Free Trade Association","OilCrop",2025,0.886418
+"3C","European Free Trade Association","OilPalm",2015,1.39e-05
+"3C","European Free Trade Association","OilPalm",2020,1.45476e-05
+"3C","European Free Trade Association","OilPalm",2025,1.5102e-05
+"3C","European Free Trade Association","OtherGrain",2015,0.461462
+"3C","European Free Trade Association","OtherGrain",2020,0.481154
+"3C","European Free Trade Association","OtherGrain",2025,0.491378
+"3C","European Free Trade Association","OtherMeat_Fish",2015,0.425531
+"3C","European Free Trade Association","OtherMeat_Fish",2020,0.445145
+"3C","European Free Trade Association","OtherMeat_Fish",2025,0.459678
+"3C","European Free Trade Association","Pork",2015,0.693366
+"3C","European Free Trade Association","Pork",2020,0.726544
+"3C","European Free Trade Association","Pork",2025,0.751651
+"3C","European Free Trade Association","Poultry",2015,0.38649
+"3C","European Free Trade Association","Poultry",2020,0.405246
+"3C","European Free Trade Association","Poultry",2025,0.41955
+"3C","European Free Trade Association","Rice",2015,0.113994
+"3C","European Free Trade Association","Rice",2020,0.118561
+"3C","European Free Trade Association","Rice",2025,0.120922
+"3C","European Free Trade Association","RootTuber",2015,0.282632
+"3C","European Free Trade Association","RootTuber",2020,0.294041
+"3C","European Free Trade Association","RootTuber",2025,0.299212
+"3C","European Free Trade Association","SheepGoat",2015,0.072193
+"3C","European Free Trade Association","SheepGoat",2020,0.0754552
+"3C","European Free Trade Association","SheepGoat",2025,0.0779164
+"3C","European Free Trade Association","Soybean",2015,0.0761298
+"3C","European Free Trade Association","Soybean",2020,0.0802926
+"3C","European Free Trade Association","Soybean",2025,0.0839607
+"3C","European Free Trade Association","SugarCrop",2015,1.47019
+"3C","European Free Trade Association","SugarCrop",2020,1.54032
+"3C","European Free Trade Association","SugarCrop",2025,1.59515
+"3C","European Free Trade Association","Vegetables",2015,0.198852
+"3C","European Free Trade Association","Vegetables",2020,0.208256
+"3C","European Free Trade Association","Vegetables",2025,0.215236
+"3C","European Free Trade Association","Wheat",2015,2.58109
+"3C","European Free Trade Association","Wheat",2020,2.70102
+"3C","European Free Trade Association","Wheat",2025,2.77452
+"3C","India","Beef",2015,1.76989
+"3C","India","Beef",2020,1.89003
+"3C","India","Beef",2025,2.13401
+"3C","India","Corn",2015,22.4537
+"3C","India","Corn",2020,23.5139
+"3C","India","Corn",2025,23.8011
+"3C","India","Dairy",2015,87.8929
+"3C","India","Dairy",2020,92.4418
+"3C","India","Dairy",2025,103.038
+"3C","India","FiberCrop",2015,7.38015
+"3C","India","FiberCrop",2020,7.85593
+"3C","India","FiberCrop",2025,8.80439
+"3C","India","Fruits",2015,24.4826
+"3C","India","Fruits",2020,26.0205
+"3C","India","Fruits",2025,29.15
+"3C","India","Legumes",2015,52.1996
+"3C","India","Legumes",2020,55.8926
+"3C","India","Legumes",2025,62.691
+"3C","India","MiscCrop",2015,5.4445
+"3C","India","MiscCrop",2020,5.7938
+"3C","India","MiscCrop",2025,6.50113
+"3C","India","NutsSeeds",2015,18.4016
+"3C","India","NutsSeeds",2020,19.5175
+"3C","India","NutsSeeds",2025,21.8848
+"3C","India","OilCrop",2015,36.9156
+"3C","India","OilCrop",2020,39.3047
+"3C","India","OilCrop",2025,44.1021
+"3C","India","OilPalm",2015,13.4429
+"3C","India","OilPalm",2020,14.3127
+"3C","India","OilPalm",2025,16.1155
+"3C","India","OtherGrain",2015,42.7245
+"3C","India","OtherGrain",2020,44.9513
+"3C","India","OtherGrain",2025,45.8983
+"3C","India","OtherMeat_Fish",2015,5.40317
+"3C","India","OtherMeat_Fish",2020,5.76598
+"3C","India","OtherMeat_Fish",2025,6.49253
+"3C","India","Pork",2015,0.878669
+"3C","India","Pork",2020,0.94106
+"3C","India","Pork",2025,1.06147
+"3C","India","Poultry",2015,7.51889
+"3C","India","Poultry",2020,8.03116
+"3C","India","Poultry",2025,9.0575
+"3C","India","Rice",2015,256.13
+"3C","India","Rice",2020,268.556
+"3C","India","Rice",2025,273.496
+"3C","India","RootTuber",2015,21.6363
+"3C","India","RootTuber",2020,22.6211
+"3C","India","RootTuber",2025,22.9708
+"3C","India","SheepGoat",2015,0.922542
+"3C","India","SheepGoat",2020,0.98443
+"3C","India","SheepGoat",2025,1.10845
+"3C","India","Soybean",2015,18.6119
+"3C","India","Soybean",2020,19.8886
+"3C","India","Soybean",2025,22.468
+"3C","India","SugarCrop",2015,91.7063
+"3C","India","SugarCrop",2020,97.1421
+"3C","India","SugarCrop",2025,108.363
+"3C","India","Vegetables",2015,23.1167
+"3C","India","Vegetables",2020,24.5577
+"3C","India","Vegetables",2025,27.4992
+"3C","India","Wheat",2015,209.929
+"3C","India","Wheat",2020,220.566
+"3C","India","Wheat",2025,224.925
+"3C","Indonesia","Beef",2015,0.732685
+"3C","Indonesia","Beef",2020,0.836237
+"3C","Indonesia","Beef",2025,0.910347
+"3C","Indonesia","Corn",2015,13.1878
+"3C","Indonesia","Corn",2020,13.7791
+"3C","Indonesia","Corn",2025,14.1455
+"3C","Indonesia","Dairy",2015,1.20214
+"3C","Indonesia","Dairy",2020,1.37264
+"3C","Indonesia","Dairy",2025,1.49368
+"3C","Indonesia","FiberCrop",2015,1e-07
+"3C","Indonesia","FiberCrop",2020,1.1433e-07
+"3C","Indonesia","FiberCrop",2025,1.24259e-07
+"3C","Indonesia","Fruits",2015,5.64698
+"3C","Indonesia","Fruits",2020,6.44341
+"3C","Indonesia","Fruits",2025,6.99043
+"3C","Indonesia","Legumes",2015,0.692165
+"3C","Indonesia","Legumes",2020,0.789729
+"3C","Indonesia","Legumes",2025,0.858937
+"3C","Indonesia","MiscCrop",2015,1.19417
+"3C","Indonesia","MiscCrop",2020,1.3655
+"3C","Indonesia","MiscCrop",2025,1.48441
+"3C","Indonesia","NutsSeeds",2015,3.68602
+"3C","Indonesia","NutsSeeds",2020,4.18134
+"3C","Indonesia","NutsSeeds",2025,4.55052
+"3C","Indonesia","OilCrop",2015,4.40497
+"3C","Indonesia","OilCrop",2020,5.01484
+"3C","Indonesia","OilCrop",2025,5.45445
+"3C","Indonesia","OilPalm",2015,10.8421
+"3C","Indonesia","OilPalm",2020,12.4243
+"3C","Indonesia","OilPalm",2025,13.5469
+"3C","Indonesia","OtherGrain",2015,0.207042
+"3C","Indonesia","OtherGrain",2020,0.220574
+"3C","Indonesia","OtherGrain",2025,0.229752
+"3C","Indonesia","OtherMeat_Fish",2015,4.33568
+"3C","Indonesia","OtherMeat_Fish",2020,4.95717
+"3C","Indonesia","OtherMeat_Fish",2025,5.39025
+"3C","Indonesia","Pork",2015,0.493831
+"3C","Indonesia","Pork",2020,0.570819
+"3C","Indonesia","Pork",2025,0.623065
+"3C","Indonesia","Poultry",2015,2.90085
+"3C","Indonesia","Poultry",2020,3.28743
+"3C","Indonesia","Poultry",2025,3.58248
+"3C","Indonesia","Rice",2015,87.3594
+"3C","Indonesia","Rice",2020,91.2226
+"3C","Indonesia","Rice",2025,93.6014
+"3C","Indonesia","RootTuber",2015,20.8489
+"3C","Indonesia","RootTuber",2020,21.7889
+"3C","Indonesia","RootTuber",2025,22.2962
+"3C","Indonesia","SheepGoat",2015,0.11283
+"3C","Indonesia","SheepGoat",2020,0.128936
+"3C","Indonesia","SheepGoat",2025,0.140195
+"3C","Indonesia","Soybean",2015,4.1372
+"3C","Indonesia","Soybean",2020,4.75542
+"3C","Indonesia","Soybean",2025,5.22171
+"3C","Indonesia","SugarCrop",2015,17.194
+"3C","Indonesia","SugarCrop",2020,19.543
+"3C","Indonesia","SugarCrop",2025,21.2516
+"3C","Indonesia","Vegetables",2015,2.38305
+"3C","Indonesia","Vegetables",2020,2.72117
+"3C","Indonesia","Vegetables",2025,2.95378
+"3C","Indonesia","Wheat",2015,16.791
+"3C","Indonesia","Wheat",2020,17.6417
+"3C","Indonesia","Wheat",2025,18.2024
+"3C","Japan","Beef",2015,1.35737
+"3C","Japan","Beef",2020,1.36679
+"3C","Japan","Beef",2025,1.34464
+"3C","Japan","Corn",2015,4.17023
+"3C","Japan","Corn",2020,4.11155
+"3C","Japan","Corn",2025,4.01772
+"3C","Japan","Dairy",2015,5.42222
+"3C","Japan","Dairy",2020,5.45948
+"3C","Japan","Dairy",2025,5.36875
+"3C","Japan","FiberCrop",2015,0
+"3C","Japan","FiberCrop",2020,0
+"3C","Japan","FiberCrop",2025,0
+"3C","Japan","Fruits",2015,1.73158
+"3C","Japan","Fruits",2020,1.74548
+"3C","Japan","Fruits",2025,1.71651
+"3C","Japan","Legumes",2015,0.555076
+"3C","Japan","Legumes",2020,0.562256
+"3C","Japan","Legumes",2025,0.557284
+"3C","Japan","MiscCrop",2015,1.35168
+"3C","Japan","MiscCrop",2020,1.36482
+"3C","Japan","MiscCrop",2025,1.34378
+"3C","Japan","NutsSeeds",2015,1.09028
+"3C","Japan","NutsSeeds",2020,1.10458
+"3C","Japan","NutsSeeds",2025,1.09951
+"3C","Japan","OilCrop",2015,8.63794
+"3C","Japan","OilCrop",2020,8.71216
+"3C","Japan","OilCrop",2025,8.63493
+"3C","Japan","OilPalm",2015,0.91637
+"3C","Japan","OilPalm",2020,0.927584
+"3C","Japan","OilPalm",2025,0.917139
+"3C","Japan","OtherGrain",2015,1.70907
+"3C","Japan","OtherGrain",2020,1.68679
+"3C","Japan","OtherGrain",2025,1.65024
+"3C","Japan","OtherMeat_Fish",2015,3.92093
+"3C","Japan","OtherMeat_Fish",2020,3.94797
+"3C","Japan","OtherMeat_Fish",2025,3.87939
+"3C","Japan","Pork",2015,4.20041
+"3C","Japan","Pork",2020,4.25446
+"3C","Japan","Pork",2025,4.20294
+"3C","Japan","Poultry",2015,5.60509
+"3C","Japan","Poultry",2020,5.65627
+"3C","Japan","Poultry",2025,5.57228
+"3C","Japan","Rice",2015,25.1473
+"3C","Japan","Rice",2020,24.7337
+"3C","Japan","Rice",2025,24.0704
+"3C","Japan","RootTuber",2015,2.50809
+"3C","Japan","RootTuber",2020,2.46828
+"3C","Japan","RootTuber",2025,2.39714
+"3C","Japan","SheepGoat",2015,0.0354933
+"3C","Japan","SheepGoat",2020,0.0358046
+"3C","Japan","SheepGoat",2025,0.035233
+"3C","Japan","Soybean",2015,7.57364
+"3C","Japan","Soybean",2020,7.69324
+"3C","Japan","Soybean",2025,7.66143
+"3C","Japan","SugarCrop",2015,7.4691
+"3C","Japan","SugarCrop",2020,7.53758
+"3C","Japan","SugarCrop",2025,7.43848
+"3C","Japan","Vegetables",2015,2.30534
+"3C","Japan","Vegetables",2020,2.32487
+"3C","Japan","Vegetables",2025,2.28799
+"3C","Japan","Wheat",2015,15.5547
+"3C","Japan","Wheat",2020,15.3827
+"3C","Japan","Wheat",2025,15.042
+"3C","Mexico","Beef",2015,2.69235
+"3C","Mexico","Beef",2020,2.80705
+"3C","Mexico","Beef",2025,2.96994
+"3C","Mexico","Corn",2015,31.7784
+"3C","Mexico","Corn",2020,33.5525
+"3C","Mexico","Corn",2025,34.512
+"3C","Mexico","Dairy",2015,6.00235
+"3C","Mexico","Dairy",2020,6.23181
+"3C","Mexico","Dairy",2025,6.57185
+"3C","Mexico","FiberCrop",2015,0.0113142
+"3C","Mexico","FiberCrop",2020,0.0117447
+"3C","Mexico","FiberCrop",2025,0.0124026
+"3C","Mexico","Fruits",2015,3.32921
+"3C","Mexico","Fruits",2020,3.45938
+"3C","Mexico","Fruits",2025,3.64715
+"3C","Mexico","Legumes",2015,3.02245
+"3C","Mexico","Legumes",2020,3.16625
+"3C","Mexico","Legumes",2025,3.36504
+"3C","Mexico","MiscCrop",2015,0.238789
+"3C","Mexico","MiscCrop",2020,0.249056
+"3C","Mexico","MiscCrop",2025,0.263448
+"3C","Mexico","NutsSeeds",2015,1.20644
+"3C","Mexico","NutsSeeds",2020,1.25845
+"3C","Mexico","NutsSeeds",2025,1.34125
+"3C","Mexico","OilCrop",2015,1.94939
+"3C","Mexico","OilCrop",2020,2.032
+"3C","Mexico","OilCrop",2025,2.15786
+"3C","Mexico","OilPalm",2015,2.65447
+"3C","Mexico","OilPalm",2020,2.77188
+"3C","Mexico","OilPalm",2025,2.9324
+"3C","Mexico","OtherGrain",2015,2.87666
+"3C","Mexico","OtherGrain",2020,3.02881
+"3C","Mexico","OtherGrain",2025,3.11207
+"3C","Mexico","OtherMeat_Fish",2015,1.63409
+"3C","Mexico","OtherMeat_Fish",2020,1.6946
+"3C","Mexico","OtherMeat_Fish",2025,1.78521
+"3C","Mexico","Pork",2015,4.40361
+"3C","Mexico","Pork",2020,4.58593
+"3C","Mexico","Pork",2025,4.84881
+"3C","Mexico","Poultry",2015,6.17833
+"3C","Mexico","Poultry",2020,6.42009
+"3C","Mexico","Poultry",2025,6.77687
+"3C","Mexico","Rice",2015,1.87343
+"3C","Mexico","Rice",2020,1.96007
+"3C","Mexico","Rice",2025,2.00885
+"3C","Mexico","RootTuber",2015,1.01723
+"3C","Mexico","RootTuber",2020,1.06789
+"3C","Mexico","RootTuber",2025,1.09301
+"3C","Mexico","SheepGoat",2015,0.152991
+"3C","Mexico","SheepGoat",2020,0.159733
+"3C","Mexico","SheepGoat",2025,0.168651
+"3C","Mexico","Soybean",2015,3.51117
+"3C","Mexico","Soybean",2020,3.67823
+"3C","Mexico","Soybean",2025,3.92421
+"3C","Mexico","SugarCrop",2015,12.915
+"3C","Mexico","SugarCrop",2020,13.4494
+"3C","Mexico","SugarCrop",2025,14.2238
+"3C","Mexico","Vegetables",2015,1.30057
+"3C","Mexico","Vegetables",2020,1.35189
+"3C","Mexico","Vegetables",2025,1.42574
+"3C","Mexico","Wheat",2015,7.23305
+"3C","Mexico","Wheat",2020,7.63143
+"3C","Mexico","Wheat",2025,7.86501
+"3C","Middle East","Beef",2015,2.40142
+"3C","Middle East","Beef",2020,2.63034
+"3C","Middle East","Beef",2025,2.87154
+"3C","Middle East","Corn",2015,5.90696
+"3C","Middle East","Corn",2020,6.48655
+"3C","Middle East","Corn",2025,6.92831
+"3C","Middle East","Dairy",2015,10.9855
+"3C","Middle East","Dairy",2020,12.0197
+"3C","Middle East","Dairy",2025,13.1126
+"3C","Middle East","FiberCrop",2015,0.305946
+"3C","Middle East","FiberCrop",2020,0.335335
+"3C","Middle East","FiberCrop",2025,0.366555
+"3C","Middle East","Fruits",2015,10.0523
+"3C","Middle East","Fruits",2020,11.0037
+"3C","Middle East","Fruits",2025,11.998
+"3C","Middle East","Legumes",2015,4.41705
+"3C","Middle East","Legumes",2020,4.85969
+"3C","Middle East","Legumes",2025,5.32941
+"3C","Middle East","MiscCrop",2015,2.78961
+"3C","Middle East","MiscCrop",2020,3.06189
+"3C","Middle East","MiscCrop",2025,3.34332
+"3C","Middle East","NutsSeeds",2015,3.83736
+"3C","Middle East","NutsSeeds",2020,4.21263
+"3C","Middle East","NutsSeeds",2025,4.62947
+"3C","Middle East","OilCrop",2015,11.657
+"3C","Middle East","OilCrop",2020,12.7243
+"3C","Middle East","OilCrop",2025,13.962
+"3C","Middle East","OilPalm",2015,8.48023
+"3C","Middle East","OilPalm",2020,9.30135
+"3C","Middle East","OilPalm",2025,10.1885
+"3C","Middle East","OtherGrain",2015,2.78349
+"3C","Middle East","OtherGrain",2020,3.06145
+"3C","Middle East","OtherGrain",2025,3.2796
+"3C","Middle East","OtherMeat_Fish",2015,3.38606
+"3C","Middle East","OtherMeat_Fish",2020,3.70757
+"3C","Middle East","OtherMeat_Fish",2025,4.04161
+"3C","Middle East","Pork",2015,0.0918759
+"3C","Middle East","Pork",2020,0.101174
+"3C","Middle East","Pork",2025,0.110489
+"3C","Middle East","Poultry",2015,9.37415
+"3C","Middle East","Poultry",2020,10.3084
+"3C","Middle East","Poultry",2025,11.2803
+"3C","Middle East","Rice",2015,19.6871
+"3C","Middle East","Rice",2020,21.4948
+"3C","Middle East","Rice",2025,22.9139
+"3C","Middle East","RootTuber",2015,4.08763
+"3C","Middle East","RootTuber",2020,4.46972
+"3C","Middle East","RootTuber",2025,4.75199
+"3C","Middle East","SheepGoat",2015,2.09165
+"3C","Middle East","SheepGoat",2020,2.29193
+"3C","Middle East","SheepGoat",2025,2.50037
+"3C","Middle East","Soybean",2015,6.52925
+"3C","Middle East","Soybean",2020,7.1959
+"3C","Middle East","Soybean",2025,7.94005
+"3C","Middle East","SugarCrop",2015,22.3954
+"3C","Middle East","SugarCrop",2020,24.4743
+"3C","Middle East","SugarCrop",2025,26.7523
+"3C","Middle East","Vegetables",2015,4.91029
+"3C","Middle East","Vegetables",2020,5.37663
+"3C","Middle East","Vegetables",2025,5.86252
+"3C","Middle East","Wheat",2015,76.65
+"3C","Middle East","Wheat",2020,84.3589
+"3C","Middle East","Wheat",2025,90.4194
+"3C","Pakistan","Beef",2015,2.17703
+"3C","Pakistan","Beef",2020,2.35036
+"3C","Pakistan","Beef",2025,2.65132
+"3C","Pakistan","Corn",2015,8.8765
+"3C","Pakistan","Corn",2020,9.30661
+"3C","Pakistan","Corn",2025,9.99127
+"3C","Pakistan","Dairy",2015,23.8275
+"3C","Pakistan","Dairy",2020,25.6614
+"3C","Pakistan","Dairy",2025,28.9185
+"3C","Pakistan","FiberCrop",2015,0.649225
+"3C","Pakistan","FiberCrop",2020,0.695731
+"3C","Pakistan","FiberCrop",2025,0.779137
+"3C","Pakistan","Fruits",2015,2.16452
+"3C","Pakistan","Fruits",2020,2.33135
+"3C","Pakistan","Fruits",2025,2.62783
+"3C","Pakistan","Legumes",2015,2.35522
+"3C","Pakistan","Legumes",2020,2.56165
+"3C","Pakistan","Legumes",2025,2.90899
+"3C","Pakistan","MiscCrop",2015,0.373482
+"3C","Pakistan","MiscCrop",2020,0.404778
+"3C","Pakistan","MiscCrop",2025,0.458675
+"3C","Pakistan","NutsSeeds",2015,0.544034
+"3C","Pakistan","NutsSeeds",2020,0.597185
+"3C","Pakistan","NutsSeeds",2025,0.687329
+"3C","Pakistan","OilCrop",2015,0.393936
+"3C","Pakistan","OilCrop",2020,0.426002
+"3C","Pakistan","OilCrop",2025,0.483937
+"3C","Pakistan","OilPalm",2015,7.05014
+"3C","Pakistan","OilPalm",2020,7.65398
+"3C","Pakistan","OilPalm",2025,8.69213
+"3C","Pakistan","OtherGrain",2015,0.927065
+"3C","Pakistan","OtherGrain",2020,0.97382
+"3C","Pakistan","OtherGrain",2025,1.05259
+"3C","Pakistan","OtherMeat_Fish",2015,1.32499
+"3C","Pakistan","OtherMeat_Fish",2020,1.43317
+"3C","Pakistan","OtherMeat_Fish",2025,1.62189
+"3C","Pakistan","Pork",2015,9.88e-05
+"3C","Pakistan","Pork",2020,0.000107287
+"3C","Pakistan","Pork",2025,0.000121856
+"3C","Pakistan","Poultry",2015,1.73537
+"3C","Pakistan","Poultry",2020,1.87118
+"3C","Pakistan","Poultry",2025,2.11281
+"3C","Pakistan","Rice",2015,7.05457
+"3C","Pakistan","Rice",2020,7.48236
+"3C","Pakistan","Rice",2025,8.13568
+"3C","Pakistan","RootTuber",2015,1.58409
+"3C","Pakistan","RootTuber",2020,1.68544
+"3C","Pakistan","RootTuber",2025,1.84021
+"3C","Pakistan","SheepGoat",2015,0.609331
+"3C","Pakistan","SheepGoat",2020,0.657607
+"3C","Pakistan","SheepGoat",2025,0.742551
+"3C","Pakistan","Soybean",2015,0.664236
+"3C","Pakistan","Soybean",2020,0.722926
+"3C","Pakistan","Soybean",2025,0.826846
+"3C","Pakistan","SugarCrop",2015,14.4485
+"3C","Pakistan","SugarCrop",2020,15.4213
+"3C","Pakistan","SugarCrop",2025,17.2176
+"3C","Pakistan","Vegetables",2015,1.45049
+"3C","Pakistan","Vegetables",2020,1.5681
+"3C","Pakistan","Vegetables",2025,1.77226
+"3C","Pakistan","Wheat",2015,53.5049
+"3C","Pakistan","Wheat",2020,57.2524
+"3C","Pakistan","Wheat",2025,62.579
+"3C","Russia","Beef",2015,2.93984
+"3C","Russia","Beef",2020,2.98915
+"3C","Russia","Beef",2025,3.00595
+"3C","Russia","Corn",2015,0.163684
+"3C","Russia","Corn",2020,0.16453
+"3C","Russia","Corn",2025,0.16352
+"3C","Russia","Dairy",2015,13.0714
+"3C","Russia","Dairy",2020,13.2902
+"3C","Russia","Dairy",2025,13.3597
+"3C","Russia","Fruits",2015,2.67152
+"3C","Russia","Fruits",2020,2.71624
+"3C","Russia","Fruits",2025,2.72905
+"3C","Russia","Legumes",2015,0.748327
+"3C","Russia","Legumes",2020,0.763956
+"3C","Russia","Legumes",2025,0.772096
+"3C","Russia","MiscCrop",2015,0.768729
+"3C","Russia","MiscCrop",2020,0.783954
+"3C","Russia","MiscCrop",2025,0.788938
+"3C","Russia","NutsSeeds",2015,0.600802
+"3C","Russia","NutsSeeds",2020,0.614033
+"3C","Russia","NutsSeeds",2025,0.625823
+"3C","Russia","OilCrop",2015,10.4249
+"3C","Russia","OilCrop",2020,10.6335
+"3C","Russia","OilCrop",2025,10.7663
+"3C","Russia","OtherGrain",2015,5.14247
+"3C","Russia","OtherGrain",2020,5.19647
+"3C","Russia","OtherGrain",2025,5.18791
+"3C","Russia","OtherMeat_Fish",2015,2.79936
+"3C","Russia","OtherMeat_Fish",2020,2.84392
+"3C","Russia","OtherMeat_Fish",2025,2.85525
+"3C","Russia","Pork",2015,6.42436
+"3C","Russia","Pork",2020,6.5435
+"3C","Russia","Pork",2025,6.58601
+"3C","Russia","Poultry",2015,6.13485
+"3C","Russia","Poultry",2020,6.24644
+"3C","Russia","Poultry",2025,6.28955
+"3C","Russia","Rice",2015,1.80215
+"3C","Russia","Rice",2020,1.80722
+"3C","Russia","Rice",2025,1.79214
+"3C","Russia","RootTuber",2015,6.80359
+"3C","Russia","RootTuber",2020,6.82419
+"3C","Russia","RootTuber",2025,6.76031
+"3C","Russia","SheepGoat",2015,0.299575
+"3C","Russia","SheepGoat",2020,0.304117
+"3C","Russia","SheepGoat",2025,0.305995
+"3C","Russia","Soybean",2015,0.612169
+"3C","Russia","Soybean",2020,0.626347
+"3C","Russia","Soybean",2025,0.635667
+"3C","Russia","SugarCrop",2015,14.0346
+"3C","Russia","SugarCrop",2020,14.29
+"3C","Russia","SugarCrop",2025,14.3948
+"3C","Russia","Vegetables",2015,2.54075
+"3C","Russia","Vegetables",2020,2.58336
+"3C","Russia","Vegetables",2025,2.59617
+"3C","Russia","Wheat",2015,37.6209
+"3C","Russia","Wheat",2020,37.9564
+"3C","Russia","Wheat",2025,37.8304
+"3C","South Africa","Beef",2015,1.63586
+"3C","South Africa","Beef",2020,1.71331
+"3C","South Africa","Beef",2025,1.81502
+"3C","South Africa","Corn",2015,14.4555
+"3C","South Africa","Corn",2020,15.3358
+"3C","South Africa","Corn",2025,15.8915
+"3C","South Africa","Dairy",2015,1.44074
+"3C","South Africa","Dairy",2020,1.49453
+"3C","South Africa","Dairy",2025,1.57158
+"3C","South Africa","FiberCrop",2015,0.0097257
+"3C","South Africa","FiberCrop",2020,0.010053
+"3C","South Africa","FiberCrop",2025,0.0105616
+"3C","South Africa","Fruits",2015,0.464319
+"3C","South Africa","Fruits",2020,0.479463
+"3C","South Africa","Fruits",2025,0.502611
+"3C","South Africa","Legumes",2015,0.289059
+"3C","South Africa","Legumes",2020,0.300039
+"3C","South Africa","Legumes",2025,0.316488
+"3C","South Africa","MiscCrop",2015,0.186143
+"3C","South Africa","MiscCrop",2020,0.192554
+"3C","South Africa","MiscCrop",2025,0.202168
+"3C","South Africa","NutsSeeds",2015,0.248856
+"3C","South Africa","NutsSeeds",2020,0.258539
+"3C","South Africa","NutsSeeds",2025,0.273895
+"3C","South Africa","OilCrop",2015,2.27863
+"3C","South Africa","OilCrop",2020,2.38284
+"3C","South Africa","OilCrop",2025,2.53572
+"3C","South Africa","OilPalm",2015,1.84821
+"3C","South Africa","OilPalm",2020,1.91466
+"3C","South Africa","OilPalm",2025,2.01709
+"3C","South Africa","OtherGrain",2015,1.62109
+"3C","South Africa","OtherGrain",2020,1.72226
+"3C","South Africa","OtherGrain",2025,1.78819
+"3C","South Africa","OtherMeat_Fish",2015,0.562497
+"3C","South Africa","OtherMeat_Fish",2020,0.580301
+"3C","South Africa","OtherMeat_Fish",2025,0.607924
+"3C","South Africa","Pork",2015,0.423573
+"3C","South Africa","Pork",2020,0.438773
+"3C","South Africa","Pork",2025,0.460946
+"3C","South Africa","Poultry",2015,2.50507
+"3C","South Africa","Poultry",2020,2.58846
+"3C","South Africa","Poultry",2025,2.71812
+"3C","South Africa","Rice",2015,2.50627
+"3C","South Africa","Rice",2020,2.64084
+"3C","South Africa","Rice",2025,2.74
+"3C","South Africa","RootTuber",2015,1.05106
+"3C","South Africa","RootTuber",2020,1.1149
+"3C","South Africa","RootTuber",2025,1.15378
+"3C","South Africa","SheepGoat",2015,0.294229
+"3C","South Africa","SheepGoat",2020,0.306046
+"3C","South Africa","SheepGoat",2025,0.322174
+"3C","South Africa","Soybean",2015,1.88793
+"3C","South Africa","Soybean",2020,1.96523
+"3C","South Africa","Soybean",2025,2.08322
+"3C","South Africa","SugarCrop",2015,5.48936
+"3C","South Africa","SugarCrop",2020,5.71735
+"3C","South Africa","SugarCrop",2025,6.03477
+"3C","South Africa","Vegetables",2015,0.521338
+"3C","South Africa","Vegetables",2020,0.53845
+"3C","South Africa","Vegetables",2025,0.564465
+"3C","South Africa","Wheat",2015,7.33326
+"3C","South Africa","Wheat",2020,7.82517
+"3C","South Africa","Wheat",2025,8.1669
+"3C","South America_Northern","Beef",2015,0.747359
+"3C","South America_Northern","Beef",2020,0.593083
+"3C","South America_Northern","Beef",2025,0.617142
+"3C","South America_Northern","Corn",2015,3.91932
+"3C","South America_Northern","Corn",2020,2.59079
+"3C","South America_Northern","Corn",2025,2.77722
+"3C","South America_Northern","Dairy",2015,1.60408
+"3C","South America_Northern","Dairy",2020,1.26395
+"3C","South America_Northern","Dairy",2025,1.31495
+"3C","South America_Northern","FiberCrop",2015,0.0092693
+"3C","South America_Northern","FiberCrop",2020,0.00738116
+"3C","South America_Northern","FiberCrop",2025,0.00767484
+"3C","South America_Northern","Fruits",2015,1.19245
+"3C","South America_Northern","Fruits",2020,0.940895
+"3C","South America_Northern","Fruits",2025,0.979183
+"3C","South America_Northern","Legumes",2015,0.524582
+"3C","South America_Northern","Legumes",2020,0.414026
+"3C","South America_Northern","Legumes",2025,0.433564
+"3C","South America_Northern","MiscCrop",2015,0.0832216
+"3C","South America_Northern","MiscCrop",2020,0.06577
+"3C","South America_Northern","MiscCrop",2025,0.0684701
+"3C","South America_Northern","NutsSeeds",2015,0.0428447
+"3C","South America_Northern","NutsSeeds",2020,0.0346531
+"3C","South America_Northern","NutsSeeds",2025,0.0364048
+"3C","South America_Northern","OilCrop",2015,0.327276
+"3C","South America_Northern","OilCrop",2020,0.263648
+"3C","South America_Northern","OilCrop",2025,0.276575
+"3C","South America_Northern","OilPalm",2015,0.938609
+"3C","South America_Northern","OilPalm",2020,0.745629
+"3C","South America_Northern","OilPalm",2025,0.777188
+"3C","South America_Northern","OtherGrain",2015,0.81992
+"3C","South America_Northern","OtherGrain",2020,0.539169
+"3C","South America_Northern","OtherGrain",2025,0.580897
+"3C","South America_Northern","OtherMeat_Fish",2015,0.300724
+"3C","South America_Northern","OtherMeat_Fish",2020,0.236716
+"3C","South America_Northern","OtherMeat_Fish",2025,0.246044
+"3C","South America_Northern","Pork",2015,0.479909
+"3C","South America_Northern","Pork",2020,0.37924
+"3C","South America_Northern","Pork",2025,0.395315
+"3C","South America_Northern","Poultry",2015,1.32531
+"3C","South America_Northern","Poultry",2020,1.04587
+"3C","South America_Northern","Poultry",2025,1.08996
+"3C","South America_Northern","Rice",2015,2.57836
+"3C","South America_Northern","Rice",2020,1.69725
+"3C","South America_Northern","Rice",2025,1.81484
+"3C","South America_Northern","RootTuber",2015,0.741185
+"3C","South America_Northern","RootTuber",2020,0.484223
+"3C","South America_Northern","RootTuber",2025,0.517591
+"3C","South America_Northern","SheepGoat",2015,0.0152194
+"3C","South America_Northern","SheepGoat",2020,0.0121803
+"3C","South America_Northern","SheepGoat",2025,0.0126661
+"3C","South America_Northern","Soybean",2015,2.77058
+"3C","South America_Northern","Soybean",2020,2.20326
+"3C","South America_Northern","Soybean",2025,2.31303
+"3C","South America_Northern","SugarCrop",2015,4.03302
+"3C","South America_Northern","SugarCrop",2020,3.18543
+"3C","South America_Northern","SugarCrop",2025,3.31824
+"3C","South America_Northern","Vegetables",2015,0.33728
+"3C","South America_Northern","Vegetables",2020,0.265915
+"3C","South America_Northern","Vegetables",2025,0.276654
+"3C","South America_Northern","Wheat",2015,3.66452
+"3C","South America_Northern","Wheat",2020,2.39516
+"3C","South America_Northern","Wheat",2025,2.57976
+"3C","South America_Southern","Beef",2015,1.99543
+"3C","South America_Southern","Beef",2020,2.13534
+"3C","South America_Southern","Beef",2025,2.27407
+"3C","South America_Southern","Corn",2015,6.14866
+"3C","South America_Southern","Corn",2020,6.66376
+"3C","South America_Southern","Corn",2025,6.87734
+"3C","South America_Southern","Dairy",2015,4.00068
+"3C","South America_Southern","Dairy",2020,4.28762
+"3C","South America_Southern","Dairy",2025,4.57047
+"3C","South America_Southern","FiberCrop",2015,0.154709
+"3C","South America_Southern","FiberCrop",2020,0.165823
+"3C","South America_Southern","FiberCrop",2025,0.17762
+"3C","South America_Southern","Fruits",2015,3.39644
+"3C","South America_Southern","Fruits",2020,3.64321
+"3C","South America_Southern","Fruits",2025,3.88222
+"3C","South America_Southern","Legumes",2015,1.30912
+"3C","South America_Southern","Legumes",2020,1.41251
+"3C","South America_Southern","Legumes",2025,1.51733
+"3C","South America_Southern","MiscCrop",2015,0.388031
+"3C","South America_Southern","MiscCrop",2020,0.416567
+"3C","South America_Southern","MiscCrop",2025,0.444624
+"3C","South America_Southern","NutsSeeds",2015,0.517749
+"3C","South America_Southern","NutsSeeds",2020,0.557793
+"3C","South America_Southern","NutsSeeds",2025,0.601695
+"3C","South America_Southern","OilCrop",2015,1.3575
+"3C","South America_Southern","OilCrop",2020,1.45948
+"3C","South America_Southern","OilCrop",2025,1.56651
+"3C","South America_Southern","OilPalm",2015,1.98088
+"3C","South America_Southern","OilPalm",2020,2.12646
+"3C","South America_Southern","OilPalm",2025,2.27322
+"3C","South America_Southern","OtherGrain",2015,2.26609
+"3C","South America_Southern","OtherGrain",2020,2.45663
+"3C","South America_Southern","OtherGrain",2025,2.5412
+"3C","South America_Southern","OtherMeat_Fish",2015,1.6915
+"3C","South America_Southern","OtherMeat_Fish",2020,1.81043
+"3C","South America_Southern","OtherMeat_Fish",2025,1.92689
+"3C","South America_Southern","Pork",2015,2.20779
+"3C","South America_Southern","Pork",2020,2.37508
+"3C","South America_Southern","Pork",2025,2.53913
+"3C","South America_Southern","Poultry",2015,3.97422
+"3C","South America_Southern","Poultry",2020,4.26056
+"3C","South America_Southern","Poultry",2025,4.55172
+"3C","South America_Southern","Rice",2015,8.20802
+"3C","South America_Southern","Rice",2020,8.85774
+"3C","South America_Southern","Rice",2025,9.1257
+"3C","South America_Southern","RootTuber",2015,5.27537
+"3C","South America_Southern","RootTuber",2020,5.69078
+"3C","South America_Southern","RootTuber",2025,5.84554
+"3C","South America_Southern","SheepGoat",2015,0.12134
+"3C","South America_Southern","SheepGoat",2020,0.130074
+"3C","South America_Southern","SheepGoat",2025,0.138469
+"3C","South America_Southern","Soybean",2015,2.52416
+"3C","South America_Southern","Soybean",2020,2.73629
+"3C","South America_Southern","Soybean",2025,2.95798
+"3C","South America_Southern","SugarCrop",2015,7.29413
+"3C","South America_Southern","SugarCrop",2020,7.83124
+"3C","South America_Southern","SugarCrop",2025,8.37464
+"3C","South America_Southern","Vegetables",2015,0.920068
+"3C","South America_Southern","Vegetables",2020,0.987066
+"3C","South America_Southern","Vegetables",2025,1.05193
+"3C","South America_Southern","Wheat",2015,11.7647
+"3C","South America_Southern","Wheat",2020,12.7701
+"3C","South America_Southern","Wheat",2025,13.2176
+"3C","South Asia","Beef",2015,0.741885
+"3C","South Asia","Beef",2020,0.892916
+"3C","South Asia","Beef",2025,1.00316
+"3C","South Asia","Corn",2015,3.54482
+"3C","South Asia","Corn",2020,3.73537
+"3C","South Asia","Corn",2025,3.94914
+"3C","South Asia","Dairy",2015,4.27882
+"3C","South Asia","Dairy",2020,5.12465
+"3C","South Asia","Dairy",2025,5.73081
+"3C","South Asia","FiberCrop",2015,0.057849
+"3C","South Asia","FiberCrop",2020,0.0699311
+"3C","South Asia","FiberCrop",2025,0.079048
+"3C","South Asia","Fruits",2015,2.69352
+"3C","South Asia","Fruits",2020,3.25178
+"3C","South Asia","Fruits",2025,3.66181
+"3C","South Asia","Legumes",2015,4.0926
+"3C","South Asia","Legumes",2020,4.96005
+"3C","South Asia","Legumes",2025,5.61309
+"3C","South Asia","MiscCrop",2015,1.09796
+"3C","South Asia","MiscCrop",2020,1.32632
+"3C","South Asia","MiscCrop",2025,1.49442
+"3C","South Asia","NutsSeeds",2015,0.767146
+"3C","South Asia","NutsSeeds",2020,0.922098
+"3C","South Asia","NutsSeeds",2025,1.04166
+"3C","South Asia","OilCrop",2015,3.82021
+"3C","South Asia","OilCrop",2020,4.64169
+"3C","South Asia","OilCrop",2025,5.29419
+"3C","South Asia","OilPalm",2015,5.40848
+"3C","South Asia","OilPalm",2020,6.5691
+"3C","South Asia","OilPalm",2025,7.4411
+"3C","South Asia","OtherGrain",2015,1.12139
+"3C","South Asia","OtherGrain",2020,1.18265
+"3C","South Asia","OtherGrain",2025,1.25057
+"3C","South Asia","OtherMeat_Fish",2015,2.61357
+"3C","South Asia","OtherMeat_Fish",2020,3.1584
+"3C","South Asia","OtherMeat_Fish",2025,3.55198
+"3C","South Asia","Pork",2015,0.0393288
+"3C","South Asia","Pork",2020,0.047612
+"3C","South Asia","Pork",2025,0.0534082
+"3C","South Asia","Poultry",2015,1.10286
+"3C","South Asia","Poultry",2020,1.32947
+"3C","South Asia","Poultry",2025,1.50791
+"3C","South Asia","Rice",2015,94.2673
+"3C","South Asia","Rice",2020,99.5724
+"3C","South Asia","Rice",2025,104.92
+"3C","South Asia","RootTuber",2015,6.0564
+"3C","South Asia","RootTuber",2020,6.40058
+"3C","South Asia","RootTuber",2025,6.72321
+"3C","South Asia","SheepGoat",2015,0.467938
+"3C","South Asia","SheepGoat",2020,0.565226
+"3C","South Asia","SheepGoat",2025,0.635914
+"3C","South Asia","Soybean",2015,3.61571
+"3C","South Asia","Soybean",2020,4.40141
+"3C","South Asia","Soybean",2025,5.01999
+"3C","South Asia","SugarCrop",2015,7.73538
+"3C","South Asia","SugarCrop",2020,9.3399
+"3C","South Asia","SugarCrop",2025,10.5549
+"3C","South Asia","Vegetables",2015,2.88749
+"3C","South Asia","Vegetables",2020,3.48468
+"3C","South Asia","Vegetables",2025,3.92249
+"3C","South Asia","Wheat",2015,25.571
+"3C","South Asia","Wheat",2020,27.1985
+"3C","South Asia","Wheat",2025,28.8041
+"3C","South Korea","Beef",2015,0.821569
+"3C","South Korea","Beef",2020,0.859246
+"3C","South Korea","Beef",2025,0.858788
+"3C","South Korea","Corn",2015,1.32993
+"3C","South Korea","Corn",2020,1.3557
+"3C","South Korea","Corn",2025,1.34531
+"3C","South Korea","Dairy",2015,0.94275
+"3C","South Korea","Dairy",2020,0.987822
+"3C","South Korea","Dairy",2025,0.990978
+"3C","South Korea","FiberCrop",2015,0.18913
+"3C","South Korea","FiberCrop",2020,0.198788
+"3C","South Korea","FiberCrop",2025,0.199931
+"3C","South Korea","Fruits",2015,0.830432
+"3C","South Korea","Fruits",2020,0.871161
+"3C","South Korea","Fruits",2025,0.873932
+"3C","South Korea","Legumes",2015,0.152224
+"3C","South Korea","Legumes",2020,0.160684
+"3C","South Korea","Legumes",2025,0.16147
+"3C","South Korea","MiscCrop",2015,0.173676
+"3C","South Korea","MiscCrop",2020,0.182557
+"3C","South Korea","MiscCrop",2025,0.183362
+"3C","South Korea","NutsSeeds",2015,0.695078
+"3C","South Korea","NutsSeeds",2020,0.733522
+"3C","South Korea","NutsSeeds",2025,0.746025
+"3C","South Korea","OilCrop",2015,2.11543
+"3C","South Korea","OilCrop",2020,2.22394
+"3C","South Korea","OilCrop",2025,2.25581
+"3C","South Korea","OilPalm",2015,1.25027
+"3C","South Korea","OilPalm",2020,1.31658
+"3C","South Korea","OilPalm",2025,1.32759
+"3C","South Korea","OtherGrain",2015,0.822556
+"3C","South Korea","OtherGrain",2020,0.842934
+"3C","South Korea","OtherGrain",2025,0.836459
+"3C","South Korea","OtherMeat_Fish",2015,2.23817
+"3C","South Korea","OtherMeat_Fish",2020,2.34599
+"3C","South Korea","OtherMeat_Fish",2025,2.35081
+"3C","South Korea","Pork",2015,1.93429
+"3C","South Korea","Pork",2020,2.03528
+"3C","South Korea","Pork",2025,2.04694
+"3C","South Korea","Poultry",2015,1.34649
+"3C","South Korea","Poultry",2020,1.41397
+"3C","South Korea","Poultry",2025,1.41985
+"3C","South Korea","Rice",2015,9.92907
+"3C","South Korea","Rice",2020,10.0849
+"3C","South Korea","Rice",2025,9.96779
+"3C","South Korea","RootTuber",2015,0.540163
+"3C","South Korea","RootTuber",2020,0.550407
+"3C","South Korea","RootTuber",2025,0.543223
+"3C","South Korea","SheepGoat",2015,0.0149347
+"3C","South Korea","SheepGoat",2020,0.0157396
+"3C","South Korea","SheepGoat",2025,0.0157046
+"3C","South Korea","Soybean",2015,3.87177
+"3C","South Korea","Soybean",2020,4.09814
+"3C","South Korea","Soybean",2025,4.16096
+"3C","South Korea","SugarCrop",2015,3.74348
+"3C","South Korea","SugarCrop",2020,3.9158
+"3C","South Korea","SugarCrop",2025,3.95238
+"3C","South Korea","Vegetables",2015,1.73457
+"3C","South Korea","Vegetables",2020,1.81893
+"3C","South Korea","Vegetables",2025,1.82488
+"3C","South Korea","Wheat",2015,5.4224
+"3C","South Korea","Wheat",2020,5.54995
+"3C","South Korea","Wheat",2025,5.51921
+"3C","Southeast Asia","Beef",2015,2.14008
+"3C","Southeast Asia","Beef",2020,2.36448
+"3C","Southeast Asia","Beef",2025,2.55313
+"3C","Southeast Asia","Corn",2015,14.9191
+"3C","Southeast Asia","Corn",2020,15.7328
+"3C","Southeast Asia","Corn",2025,16.2768
+"3C","Southeast Asia","Dairy",2015,4.78165
+"3C","Southeast Asia","Dairy",2020,5.29111
+"3C","Southeast Asia","Dairy",2025,5.72467
+"3C","Southeast Asia","FiberCrop",2015,0.338614
+"3C","Southeast Asia","FiberCrop",2020,0.375157
+"3C","Southeast Asia","FiberCrop",2025,0.406272
+"3C","Southeast Asia","Fruits",2015,10.5992
+"3C","Southeast Asia","Fruits",2020,11.7163
+"3C","Southeast Asia","Fruits",2025,12.6556
+"3C","Southeast Asia","Legumes",2015,4.3277
+"3C","Southeast Asia","Legumes",2020,4.79754
+"3C","Southeast Asia","Legumes",2025,5.20908
+"3C","Southeast Asia","MiscCrop",2015,1.35354
+"3C","Southeast Asia","MiscCrop",2020,1.49784
+"3C","Southeast Asia","MiscCrop",2025,1.62043
+"3C","Southeast Asia","NutsSeeds",2015,5.08834
+"3C","Southeast Asia","NutsSeeds",2020,5.60891
+"3C","Southeast Asia","NutsSeeds",2025,6.10169
+"3C","Southeast Asia","OilCrop",2015,8.53182
+"3C","Southeast Asia","OilCrop",2020,9.43767
+"3C","Southeast Asia","OilCrop",2025,10.2596
+"3C","Southeast Asia","OilPalm",2015,6.01319
+"3C","Southeast Asia","OilPalm",2020,6.65197
+"3C","Southeast Asia","OilPalm",2025,7.20627
+"3C","Southeast Asia","OtherGrain",2015,3.46941
+"3C","Southeast Asia","OtherGrain",2020,3.6715
+"3C","Southeast Asia","OtherGrain",2025,3.81377
+"3C","Southeast Asia","OtherMeat_Fish",2015,12.0968
+"3C","Southeast Asia","OtherMeat_Fish",2020,13.3634
+"3C","Southeast Asia","OtherMeat_Fish",2025,14.4111
+"3C","Southeast Asia","Pork",2015,12.3337
+"3C","Southeast Asia","Pork",2020,13.6872
+"3C","Southeast Asia","Pork",2025,14.8089
+"3C","Southeast Asia","Poultry",2015,10.093
+"3C","Southeast Asia","Poultry",2020,11.1577
+"3C","Southeast Asia","Poultry",2025,12.089
+"3C","Southeast Asia","Rice",2015,126.292
+"3C","Southeast Asia","Rice",2020,132.85
+"3C","Southeast Asia","Rice",2025,137.248
+"3C","Southeast Asia","RootTuber",2015,9.80623
+"3C","Southeast Asia","RootTuber",2020,10.3369
+"3C","Southeast Asia","RootTuber",2025,10.6636
+"3C","Southeast Asia","SheepGoat",2015,0.29818
+"3C","Southeast Asia","SheepGoat",2020,0.3296
+"3C","Southeast Asia","SheepGoat",2025,0.355692
+"3C","Southeast Asia","Soybean",2015,6.71525
+"3C","Southeast Asia","Soybean",2020,7.47848
+"3C","Southeast Asia","Soybean",2025,8.17542
+"3C","Southeast Asia","SugarCrop",2015,28.7702
+"3C","Southeast Asia","SugarCrop",2020,31.8103
+"3C","Southeast Asia","SugarCrop",2025,34.4597
+"3C","Southeast Asia","Vegetables",2015,8.15349
+"3C","Southeast Asia","Vegetables",2020,9.01462
+"3C","Southeast Asia","Vegetables",2025,9.73829
+"3C","Southeast Asia","Wheat",2015,15.9055
+"3C","Southeast Asia","Wheat",2020,16.8544
+"3C","Southeast Asia","Wheat",2025,17.5104
+"3C","Taiwan","Beef",2015,0.136897
+"3C","Taiwan","Beef",2020,0.140958
+"3C","Taiwan","Beef",2025,0.140872
+"3C","Taiwan","Corn",2015,0.426071
+"3C","Taiwan","Corn",2020,0.430699
+"3C","Taiwan","Corn",2025,0.422637
+"3C","Taiwan","Dairy",2015,0.565996
+"3C","Taiwan","Dairy",2020,0.582258
+"3C","Taiwan","Dairy",2025,0.581647
+"3C","Taiwan","Fruits",2015,0.627847
+"3C","Taiwan","Fruits",2020,0.646815
+"3C","Taiwan","Fruits",2025,0.646367
+"3C","Taiwan","Legumes",2015,0.1435
+"3C","Taiwan","Legumes",2020,0.148534
+"3C","Taiwan","Legumes",2025,0.149251
+"3C","Taiwan","MiscCrop",2015,0.15331
+"3C","Taiwan","MiscCrop",2020,0.158225
+"3C","Taiwan","MiscCrop",2025,0.158333
+"3C","Taiwan","NutsSeeds",2015,0.454949
+"3C","Taiwan","NutsSeeds",2020,0.470163
+"3C","Taiwan","NutsSeeds",2025,0.475322
+"3C","Taiwan","OilCrop",2015,0.311172
+"3C","Taiwan","OilCrop",2020,0.320042
+"3C","Taiwan","OilCrop",2025,0.321721
+"3C","Taiwan","OilPalm",2015,0.607473
+"3C","Taiwan","OilPalm",2020,0.627214
+"3C","Taiwan","OilPalm",2025,0.630023
+"3C","Taiwan","OtherGrain",2015,0.343235
+"3C","Taiwan","OtherGrain",2020,0.347586
+"3C","Taiwan","OtherGrain",2025,0.341739
+"3C","Taiwan","OtherMeat_Fish",2015,0.367605
+"3C","Taiwan","OtherMeat_Fish",2020,0.378314
+"3C","Taiwan","OtherMeat_Fish",2025,0.377564
+"3C","Taiwan","Pork",2015,1.55587
+"3C","Taiwan","Pork",2020,1.60561
+"3C","Taiwan","Pork",2025,1.60632
+"3C","Taiwan","Poultry",2015,1.07743
+"3C","Taiwan","Poultry",2020,1.11313
+"3C","Taiwan","Poultry",2025,1.11497
+"3C","Taiwan","Rice",2015,2.57967
+"3C","Taiwan","Rice",2020,2.59675
+"3C","Taiwan","Rice",2025,2.54125
+"3C","Taiwan","RootTuber",2015,0.178885
+"3C","Taiwan","RootTuber",2020,0.180365
+"3C","Taiwan","RootTuber",2025,0.17616
+"3C","Taiwan","SheepGoat",2015,0.030709
+"3C","Taiwan","SheepGoat",2020,0.0316593
+"3C","Taiwan","SheepGoat",2025,0.0316363
+"3C","Taiwan","Soybean",2015,3.04685
+"3C","Taiwan","Soybean",2020,3.16637
+"3C","Taiwan","Soybean",2025,3.20338
+"3C","Taiwan","SugarCrop",2015,1.62427
+"3C","Taiwan","SugarCrop",2020,1.67533
+"3C","Taiwan","SugarCrop",2025,1.68165
+"3C","Taiwan","Vegetables",2015,0.5328
+"3C","Taiwan","Vegetables",2020,0.549047
+"3C","Taiwan","Vegetables",2025,0.548768
+"3C","Taiwan","Wheat",2015,2.22861
+"3C","Taiwan","Wheat",2020,2.26376
+"3C","Taiwan","Wheat",2025,2.23263
+"3C","USA","Beef",2015,12.2673
+"3C","USA","Beef",2020,12.7471
+"3C","USA","Beef",2025,13.0824
+"3C","USA","Corn",2015,12.3926
+"3C","USA","Corn",2020,12.7789
+"3C","USA","Corn",2025,12.9486
+"3C","USA","Dairy",2015,36.3946
+"3C","USA","Dairy",2020,37.8076
+"3C","USA","Dairy",2025,38.761
+"3C","USA","FiberCrop",2015,0.960605
+"3C","USA","FiberCrop",2020,0.995988
+"3C","USA","FiberCrop",2025,1.02093
+"3C","USA","Fruits",2015,7.91026
+"3C","USA","Fruits",2020,8.21719
+"3C","USA","Fruits",2025,8.43876
+"3C","USA","Legumes",2015,2.92551
+"3C","USA","Legumes",2020,3.05509
+"3C","USA","Legumes",2025,3.1457
+"3C","USA","MiscCrop",2015,2.4844
+"3C","USA","MiscCrop",2020,2.58501
+"3C","USA","MiscCrop",2025,2.65307
+"3C","USA","NutsSeeds",2015,8.54519
+"3C","USA","NutsSeeds",2020,8.86373
+"3C","USA","NutsSeeds",2025,9.13071
+"3C","USA","OilCrop",2015,8.51981
+"3C","USA","OilCrop",2020,8.85068
+"3C","USA","OilCrop",2025,9.12199
+"3C","USA","OilPalm",2015,0.107204
+"3C","USA","OilPalm",2020,0.111644
+"3C","USA","OilPalm",2025,0.114894
+"3C","USA","OtherGrain",2015,12.3451
+"3C","USA","OtherGrain",2020,12.7482
+"3C","USA","OtherGrain",2025,12.9151
+"3C","USA","OtherMeat_Fish",2015,4.2173
+"3C","USA","OtherMeat_Fish",2020,4.37828
+"3C","USA","OtherMeat_Fish",2025,4.48522
+"3C","USA","Pork",2015,11.0388
+"3C","USA","Pork",2020,11.4778
+"3C","USA","Pork",2025,11.7756
+"3C","USA","Poultry",2015,20.3096
+"3C","USA","Poultry",2020,21.1193
+"3C","USA","Poultry",2025,21.6647
+"3C","USA","Rice",2015,6.45087
+"3C","USA","Rice",2020,6.62301
+"3C","USA","Rice",2025,6.6776
+"3C","USA","RootTuber",2015,9.11475
+"3C","USA","RootTuber",2020,9.37816
+"3C","USA","RootTuber",2025,9.45907
+"3C","USA","SheepGoat",2015,0.232683
+"3C","USA","SheepGoat",2020,0.241739
+"3C","USA","SheepGoat",2025,0.248288
+"3C","USA","Soybean",2015,29.775
+"3C","USA","Soybean",2020,31.0935
+"3C","USA","Soybean",2025,32.21
+"3C","USA","SugarCrop",2015,30.2018
+"3C","USA","SugarCrop",2020,31.39
+"3C","USA","SugarCrop",2025,32.2676
+"3C","USA","Vegetables",2015,4.86769
+"3C","USA","Vegetables",2020,5.05715
+"3C","USA","Vegetables",2025,5.19468
+"3C","USA","Wheat",2015,52.9771
+"3C","USA","Wheat",2020,55.0844
+"3C","USA","Wheat",2025,56.2179

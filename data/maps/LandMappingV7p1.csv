@@ -1,0 +1,44 @@
+LandLeaf,LandCover,LandCover1,Area,AreaStaples,LandCover2,LandCover3,LandCover4,Area3
+CornC4,Cropland,Cropland,Coarse grains,Staples,Cropland - Staples,Cropland - Staples,Cropland - Staples,Corn
+FiberCrop,Cropland,Cropland,Other crops,NonStaples,Cropland - Others,Cropland - Others,Cropland - Oil Crops,Other crops
+FodderGrass,Cropland,Cropland,Fodder crops,Fodder crops,Cropland - Others,Cropland - Others,Cropland - Others,Fodder crops
+FodderHerb,Cropland,Cropland,Fodder crops,Fodder crops,Cropland - Others,Cropland - Others,Cropland - Others,Fodder crops
+Softwood_Forest,Forest,Forest,Forest,Forest,Forest - Managed,Forest - Managed,Forest - Managed,Forest
+Hardwood_Forest,Forest,Forest,Forest,Forest,Forest - Managed,Forest - Managed,Forest - Managed,Forest
+Fruits,Cropland,Cropland,Other crops,NonStaples,Cropland - Others,Cropland - Others,Cropland - Others,Other crops
+FruitsTree,Cropland,Cropland,Other crops,NonStaples,Cropland - Others,Cropland - Others,Cropland - Others,Other crops
+Grassland,Grassland,GrassShrubland,Grassland,Grassland,Grassland,Other Natural,Other Natural,Grassland
+Legumes,Cropland,Cropland,Other crops,NonStaples,Cropland - Others,Cropland - Others,Cropland - Others,Other crops
+MiscCrop,Cropland,Cropland,Other crops,NonStaples,Cropland - Others,Cropland - Others,Cropland - Others,Other crops
+MiscCropTree,Cropland,Cropland,Other crops,NonStaples,Cropland - Others,Cropland - Others,Cropland - Others,Other crops
+NutsSeeds,Cropland,Cropland,Other crops,NonStaples,Cropland - Others,Cropland - Others,Cropland - Others,Other crops
+NutsSeedsTree,Cropland,Cropland,Other crops,NonStaples,Cropland - Others,Cropland - Others,Cropland - Others,Other crops
+OilCrop,Cropland,Cropland,Oil crops,Oil crops,Cropland - Others,Cropland - Others,Cropland - Oil Crops,Oil crops
+OilCropTree,Cropland,Cropland,Oil crops,Oil crops,Cropland - Others,Cropland - Others,Cropland - Oil Crops,Oil crops
+OilPalmTree,Cropland,Cropland,Oil palm,Oil crops,Cropland - Others,Cropland - Others,Cropland - Oil Crops,Oil palm
+OtherArableLand,OtherArableLand,Cropland,Other arable land,Other arable land,Cropland - Others,Cropland - Others,Cropland - Others,Other arable land
+OtherGrain,Cropland,Cropland,Coarse grains,Staples,Cropland - Staples,Cropland - Staples,Cropland - Staples,Other grains
+OtherGrainC4,Cropland,Cropland,Coarse grains,Staples,Cropland - Staples,Cropland - Staples,Cropland - Staples,Other grains
+Pasture,Pasture,Pasture,Pasture,Pasture,Pasture - Managed,Pasture - Managed,Pasture - Managed,Pasture
+ProtectedGrassland,Protected,Fixed,Protected,Fixed,Grassland,Other Natural,Other Natural,Protected
+ProtectedShrubland,Protected,Fixed,Protected,Fixed,Shrubland,Other Natural,Other Natural,Protected
+ProtectedUnmanagedSoftwood_Forest,Protected,Fixed,Protected,Fixed,Forest - Unmanaged,Forest - Unmanaged,Forest - Unmanaged,Protected
+ProtectedUnmanagedHardwood_Forest,Protected,Fixed,Protected,Fixed,Forest - Unmanaged,Forest - Unmanaged,Forest - Unmanaged,Protected
+ProtectedUnmanagedPasture,Protected,Fixed,Protected,Fixed,Pasture - Unmanaged,Pasture - Unmanaged,Pasture - Unmanaged,Protected
+Rice,Cropland,Cropland,Rice,Staples,Cropland - Staples,Cropland - Staples,Cropland - Staples,Rice
+RockIceDesert,UTRID,Fixed,UTRID,Fixed,"Rock, Ice & Desert",Other Fixed,Other Fixed,UTRID
+RootTuber,Cropland,Cropland,Other crops,Staples,Cropland - Staples,Cropland - Staples,Cropland - Staples,Other crops
+Shrubland,Shrubland,GrassShrubland,Shrubland,Shrubland,Shrubland,Other Natural,Other Natural,Shrubland
+Soybean,Cropland,Cropland,Soybean,Oil crops,Cropland - Others,Cropland - Others,Cropland - Oil Crops,Soybean
+SugarCropC4,Cropland,Cropland,Sugar crops,NonStaples,Cropland - Others,Cropland - Others,Cropland - Others,Sugar crops
+UnmanagedSoftwood_Forest,UnmanagedForest,Forest,UnmanagedForest,UnmanagedForest,Forest - Unmanaged,Forest - Unmanaged,Forest - Unmanaged,UnmanagedForest
+UnmanagedHardwood_Forest,UnmanagedForest,Forest,UnmanagedForest,UnmanagedForest,Forest - Unmanaged,Forest - Unmanaged,Forest - Unmanaged,UnmanagedForest
+UnmanagedPasture,UnmanagedPasture,Pasture,UnmanagedPasture,UnmanagedPasture,Pasture - Unmanaged,Pasture - Unmanaged,Pasture - Unmanaged,UnmanagedPasture
+UrbanLand,UTRID,Fixed,UTRID,Fixed,Urban & Tundra,Other Fixed,Other Fixed,UTRID
+Vegetables,Cropland,Cropland,Other crops,NonStaples,Cropland - Others,Cropland - Others,Cropland - Others,Other crops
+Wheat,Cropland,Cropland,Wheat,Staples,Cropland - Staples,Cropland - Staples,Cropland - Staples,Wheat
+biomassGrass,Biomass,Biomass,Biomass,Biomass,Cropland - Energy,Cropland - Energy,Cropland - Energy,Biomass
+biomassTree,Biomass,Biomass,Biomass,Biomass,Cropland - Energy,Cropland - Energy,Cropland - Energy,Biomass
+FodderHerbC4,Cropland,Cropland,Fodder crops,Fodder crops,Cropland - Others,Cropland - Others,Cropland - Others,Fodder crops
+SugarCrop,Cropland,Cropland,Sugar crops,NonStaples,Cropland - Others,Cropland - Others,Cropland - Others,Sugar crops
+Tundra,UTRID,Fixed,UTRID,Fixed,Urban & Tundra,Other Fixed,Other Fixed,UTRID

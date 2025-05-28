@@ -1,0 +1,81 @@
+sector_input,sector0
+FoodDemand_NonStaples OtherMeat_Fish,Food - Livestock
+NonFoodDemand_Meat OtherMeat_Fish,Non-food
+FoodDemand_NonStaples regional beef,Food - Livestock
+NonFoodDemand_Meat regional beef,Non-food
+FeedCrops regional corn,Feed
+FoodDemand_Staples regional corn,Food - Staple crops
+NonFoodDemand_Crops regional corn,Non-food
+regional corn for ethanol regional corn,Energy
+FoodDemand_NonStaples regional dairy,Food - Livestock
+NonFoodDemand_Meat regional dairy,Non-food
+FeedCrops regional fibercrop,Feed
+FoodDemand_NonStaples regional fibercrop,Food - Oil crops
+NonFoodDemand_Crops regional fibercrop,Non-food
+FeedCrops regional fruits,Feed
+FoodDemand_NonStaples regional fruits,Food - Other crops
+NonFoodDemand_Crops regional fruits,Non-food
+FeedCrops regional legumes,Feed
+FoodDemand_NonStaples regional legumes,Food - Other crops
+NonFoodDemand_Crops regional legumes,Non-food
+FeedCrops regional misccrop,Feed
+FoodDemand_NonStaples regional misccrop,Food - Other crops
+NonFoodDemand_Crops regional misccrop,Non-food
+FeedCrops regional nuts_seeds,Feed
+FoodDemand_NonStaples regional nuts_seeds,Food - Other crops
+NonFoodDemand_Crops regional nuts_seeds,Non-food
+FeedCrops regional oilcrop,Feed
+FoodDemand_NonStaples regional oilcrop,Food - Oil crops
+NonFoodDemand_Crops regional oilcrop,Non-food
+regional biomassOil regional oilcrop,Energy
+FeedCrops regional oilpalm,Feed
+FoodDemand_NonStaples regional oilpalm,Food - Oil crops
+NonFoodDemand_Crops regional oilpalm,Non-food
+FeedCrops regional othergrain,Feed
+FoodDemand_Staples regional othergrain,Food - Staple crops
+NonFoodDemand_Crops regional othergrain,Non-food
+FoodDemand_NonStaples regional pork,Food - Livestock
+NonFoodDemand_Meat regional pork,Non-food
+FoodDemand_NonStaples regional poultry,Food - Livestock
+NonFoodDemand_Meat regional poultry,Non-food
+FeedCrops regional rice,Feed
+FoodDemand_Staples regional rice,Food - Staple crops
+NonFoodDemand_Crops regional rice,Non-food
+FeedCrops regional root_tuber,Feed
+FoodDemand_Staples regional root_tuber,Food - Staple crops
+NonFoodDemand_Crops regional root_tuber,Non-food
+FoodDemand_NonStaples regional sheepgoat,Food - Livestock
+NonFoodDemand_Meat regional sheepgoat,Non-food
+FeedCrops regional soybean,Feed
+FoodDemand_NonStaples regional soybean,Food - Oil crops
+NonFoodDemand_Crops regional soybean,Non-food
+FeedCrops regional sugarcrop,Feed
+FoodDemand_NonStaples regional sugarcrop,Food - Other crops
+NonFoodDemand_Crops regional sugarcrop,Non-food
+FoodDemand_NonStaples regional vegetables,Food - Other crops
+NonFoodDemand_Crops regional vegetables,Non-food
+FeedCrops regional wheat,Feed
+FoodDemand_Staples regional wheat,Food - Staple crops
+NonFoodDemand_Crops regional wheat,Non-food
+NonFoodDemand_Crops FodderHerb,Non-food
+FeedCrops regional vegetables,Feed
+regional biomassOil regional soybean,Energy
+regional sugar for ethanol regional sugarcrop,Energy
+NonFoodDemand_Crops FodderGrass,Non-food
+regional biomassOil regional oilpalm,Energy
+FoodDemand_NonStaples_Fish OtherMeat_Fish,Food - Livestock
+FoodDemand_NonStaples_Ruminant regional beef,Food - Livestock
+FoodDemand_NonStaples_Dairy regional dairy,Food - Livestock
+FoodDemand_NonStaples_Oils regional fibercrop,Food - Oil crops
+FoodDemand_NonStaples_FruitsVeg regional fruits,Food - Other crops
+FoodDemand_NonStaples_PlantProtein regional legumes,Food - Other crops
+FoodDemand_NonStaples_OtherCrop regional misccrop,Food - Other crops
+FoodDemand_NonStaples_PlantProtein regional nuts_seeds,Food - Other crops
+FoodDemand_NonStaples_Oils regional oilcrop,Food - Oil crops
+FoodDemand_NonStaples_Oils regional oilpalm,Food - Oil crops
+FoodDemand_NonStaples_NonRuminant regional pork,Food - Livestock
+FoodDemand_NonStaples_NonRuminant regional poultry,Food - Livestock
+FoodDemand_NonStaples_Ruminant regional sheepgoat,Food - Livestock
+FoodDemand_NonStaples_Oils regional soybean,Food - Oil crops
+FoodDemand_NonStaples_Sugar regional sugarcrop,Food - Other crops
+FoodDemand_NonStaples_FruitsVeg regional vegetables,Food - Other crops

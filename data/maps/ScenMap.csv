@@ -1,0 +1,26 @@
+scenid,scenario,name,MitigationScen,DietScen,ExoFooddemand,WasteRed
+1,3C_Ref,3C,NoPrice,Ref.,No,No
+2,2C_Ref,2C,Near2C,Ref.,No,No
+3,1p5C_Ref,1.5C,WB2C,Ref.,No,No
+4,3C_Diet_Static,3C_Diet_Static,NoPrice,Static,Yes,StaticWaste
+5,2C_Diet_Static,2C_Diet_Static,Near2C,Static,Yes,StaticWaste
+6,1p5C_Diet_Static,1.5C_Diet_Static,WB2C,Static,Yes,StaticWaste
+7,3C_Med_Diet,3C_Diet_2100,NoPrice,Med.,Yes,No
+8,2C_Med_Diet,2C_Diet_2100,Near2C,Med.,Yes,No
+9,1p5C_Med_Diet,1.5C_Diet_2100,WB2C,Med.,Yes,No
+10,3C_Med_DietWaste,3C_DietWaste_2100,NoPrice,Med.,Yes,HalfWaste_2100
+11,2C_Med_DietWaste,2C_DietWaste_2100,Near2C,Med.,Yes,HalfWaste_2100
+12,1p5C_Med_DietWaste,1.5C_DietWaste_2100,WB2C,Med.,Yes,HalfWaste_2100
+13,3C_High_Diet,3C_Diet_2050,NoPrice,High,Yes,No
+14,2C_High_Diet,2C_Diet_2050,Near2C,High,Yes,No
+15,1p5C_High_Diet,1.5C_Diet_2050,WB2C,High,Yes,No
+16,3C_High_DietWaste,3C_DietWaste_2050,NoPrice,High,Yes,HalfWaste_2050
+17,2C_High_DietWaste,2C_DietWaste_2050,Near2C,High,Yes,HalfWaste_2050
+18,1p5C_High_DietWaste,1.5C_DietWaste_2050,WB2C,High,Yes,HalfWaste_2050
+19,3C_RegHet_Diet,3C_Diet_RegHetStatic,NoPrice,Reg. Het.,Yes,RegHet
+20,2C_RegHet_Diet,2C_Diet_RegHetStatic,Near2C,Reg. Het.,Yes,RegHet
+21,1p5C_RegHet_Diet,1.5C_Diet_RegHetStatic,WB2C,Reg. Het.,Yes,RegHet
+22,3C_RegHet_DietWaste,3C_DietWaste_RegHetStatic,NoPrice,Reg. Het.,Yes,RegHet_HalfWaste
+23,2C_RegHet_DietWaste,2C_DietWaste_RegHetStatic,Near2C,Reg. Het.,Yes,RegHet_HalfWaste
+24,1p5C_RegHet_DietWaste,1.5C_DietWaste_RegHetStatic,WB2C,Reg. Het.,Yes,RegHet_HalfWaste
+25,1p5C_High_Waste,1.5C_Waste_2050,WB2C,Ref.,No,HalfWaste_2050
