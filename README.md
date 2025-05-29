@@ -12,11 +12,11 @@ To be added
 ## Code and Data
 ### GCAM Model Version and Input Files
 Yarlagadda, B. and Zhao, X. (2025). Input data and model version for GCAM dietary change and waste reduction scenarios. Zenodo.
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10840364.svg)](https://doi.org/10.5281/zenodo.10840364)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15540255.svg)](https://doi.org/10.5281/zenodo.15540255)
 
 ### Output data
 Yarlagadda, B. and Zhao, X. (2024). Output data from gcam-food-system-emissions
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10849930.svg)](https://doi.org/10.5281/zenodo.10849930)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15540132.svg)](https://doi.org/10.5281/zenodo.15540132)
 
 ### System requirements:
 Software dependencies (and versions) for running GCAM, an open source model, are documented at: 
