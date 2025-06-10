@@ -177,7 +177,7 @@ Fig1 <- plot_pcFood_all_1.5C %>%
   filter(scenario %in% c("1.5C", "1.5C_Diet_Static","1.5C_Diet_2050"), year %in% c(2100)) %>%
   mutate(scenario = factor(scenario, levels = c("1.5C", "1.5C_Diet_Static","1.5C_Diet_2050"))) %>%
   ggplot() +
-  facet_grid(scenario ~ category, scales = "fixed", label = as_labeller(c("1.5C" = "Ref. (in 2100)",
+  facet_grid(scenario ~ category, scales = "fixed", label = as_labeller(c("1.5C" = "Reference",
                                                                           "1.5C_Diet_Static" = "Static",
                                                                           "1.5C_Diet_2050" = "Transformation",
                                                                        "Intake" = "Intake",
@@ -1120,7 +1120,7 @@ source("R/StepB_Emissions.R")
     filter(scenario %in% c("1.5C", "1.5C_Waste_2050","1.5C_Diet_2050"), year %in% c(2100)) %>%
     mutate(scenario = factor(scenario, levels = c("1.5C", "1.5C_Waste_2050","1.5C_Diet_2050"))) %>%
     ggplot() +
-    facet_grid(scenario~category, scales = "fixed", label = as_labeller(c("1.5C" = "Ref. (in 2100)",
+    facet_grid(scenario~category, scales = "fixed", label = as_labeller(c("1.5C" = "Reference",
                                                                           "1.5C_Waste_2050" = "Waste Red.",
                                                                           "1.5C_Diet_2050" = "Transformation",
                                                                           "Intake" = "Intake",
