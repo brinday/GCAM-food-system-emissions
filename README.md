@@ -29,6 +29,9 @@ To install and compile GCAM, it typically takes 2-3 hours.
 
 ### Demo:
 To run the scenarios in this paper, use the exe/configuration.xml included in the input files.
-A subset of the expected output has been provided in the output dataset.
+Output data used to generate all results and figures in the paper have been provided in the output dataset. 
 
-To reproduce the figures shown in the paper, use the script generate_figures.R
+To reproduce the figures shown in the paper:
+1. clone the repository
+2. download the latest project RDS file from the zenodo repository for "Output data" and add it to use the _\output\ProjectRDS_ folder
+3. run script generate_figures.R
