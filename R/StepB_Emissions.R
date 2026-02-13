@@ -434,6 +434,11 @@ FS_EM_WBIncome_ProdBased <- FS_EM %>%
 
 # CUMULATIVE FOOD SYSTEM EMISSIONS (PRODUCTION-BASED BY INCOME GROUP) ----------------
 
+# by 32 region
+cum_FS_EM_reg <- cum_FS_EM %>%
+  group_by(scenario, region, Units, year) %>%
+  dplyr::summarise(value = sum(value))
+
 # Emissions by income group
 
 cum_FS_EM_WBIncome_ProdBased <- cum_FS_EM %>%

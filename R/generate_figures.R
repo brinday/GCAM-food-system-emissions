@@ -236,7 +236,6 @@ Fig1 <- plot_pcFood_all_1.5C %>%
 
 print(Fig1)
 
-
 Fig1 %>% Write_png(.name = "Fig1", .DIR_MODULE = DIR_MODULE, h = 6, w = 12, r = 300)
 
 
@@ -814,7 +813,7 @@ source("R/StepB_Emissions.R")
 
 
 
-  # FIGURE S3: POPULATION BY INCOME GROUP ---------------------------------------------------
+  # FIGURE S4: POPULATION BY INCOME GROUP ---------------------------------------------------
 
 
   pcGDP_WBIncome$region <- factor(pcGDP_WBIncome$region, levels = c("Low/lower-middle",
@@ -834,9 +833,9 @@ source("R/StepB_Emissions.R")
     theme(legend.position = "right",
           legend.key.width = unit(1, "cm"))
 
-  p0 %>% Write_png(.name = "FigS3", .DIR_MODULE = DIR_MODULE, h = 4, w = 15, r = 300)
+  p0 %>% Write_png(.name = "FigS4", .DIR_MODULE = DIR_MODULE, h = 4, w = 15, r = 300)
 
-  # FIGURE S4: GDP PER CAPITA BY INCOME GROUP ---------------------------------------------------
+  # FIGURE S5: GDP PER CAPITA BY INCOME GROUP ---------------------------------------------------
 
   p0 <-
     ggplot(data = filter(pcGDP_WBIncome, scenario %in% c("3C")),
@@ -851,9 +850,9 @@ source("R/StepB_Emissions.R")
     theme(legend.position = "right",
           legend.key.width = unit(1, "cm"))
 
-  p0 %>% Write_png(.name = "FigS4", .DIR_MODULE = DIR_MODULE, h = 4, w = 15, r = 300)
+  p0 %>% Write_png(.name = "FigS5", .DIR_MODULE = DIR_MODULE, h = 4, w = 15, r = 300)
 
-  # FIGURE S5: PER CAP FOOD INTAKE WASTE -------------------------------------------------------------
+  # FIGURE S6: PER CAP FOOD INTAKE WASTE -------------------------------------------------------------
 
   # Calculate the difference between Diet and Diet Waste scenarios
   plot_pcFood_WasteScen_all <- plot_pcFood %>%
@@ -898,7 +897,7 @@ source("R/StepB_Emissions.R")
                                                   "1.5C_Diet_2100", "2C_Diet_2100", "3C_Diet_2100",
                                                   "1.5C_Diet_2050", "2C_Diet_2050", "3C_Diet_2050")))
 
-  FigS5 <- plot_pcFood_all %>%
+  FigS6 <- plot_pcFood_all %>%
     ggplot() +
     facet_wrap(~scenario, scales = "fixed", nrow = 4, label = as_labeller(scenario_labels_all_new)) +
     geom_bar_pattern(
@@ -941,12 +940,161 @@ source("R/StepB_Emissions.R")
     theme_bw() + theme0 +
     theme(legend.position = "right")
 
-  print(FigS5)
+  print(FigS6)
 
-  FigS5 %>% Write_png(.name = "FigS5", .DIR_MODULE = DIR_MODULE, h = 12, w = 12, r = 300)
+  FigS6 %>% Write_png(.name = "FigS6", .DIR_MODULE = DIR_MODULE, h = 12, w = 12, r = 300)
 
 
-  # FIGURE S6: FOOD INTAKE WASTE ---------------------------------------------------------------
+  # FIGURE S7A: PER CAPITA FOOD AVAILABILITY (SUPPLY) BY 32REG -------------------------------------
+  
+  plot_pcFoodAvail_total <- pcFoodAvail_total %>%
+    filter(scenario %in% c("3C", "2C", "1.5C",
+                           "3C_Diet_2050", "2C_Diet_2050", "1.5C_Diet_2050",
+                           "3C_DietWaste_2050", "2C_DietWaste_2050", "1.5C_DietWaste_2050",
+                           "3C_Diet_2100", "2C_Diet_2100", "1.5C_Diet_2100",
+                           "3C_DietWaste_2100", "2C_DietWaste_2100", "1.5C_DietWaste_2100",
+                           "3C_Diet_Static", "2C_Diet_Static", "1.5C_Diet_Static",
+                           "3C_Diet_RegHetStatic", "2C_Diet_RegHetStatic", "1.5C_Diet_RegHetStatic",
+                           "3C_DietWaste_RegHetStatic", "2C_DietWaste_RegHetStatic", "1.5C_DietWaste_RegHetStatic")) %>%
+    left_join_error_no_match(ScenarioMap %>% select(name, MitigationScen, DietScen, WasteRed), by = c("scenario" = "name")) %>%
+    mutate(WasteRed = if_else(WasteRed == "StaticWaste", "No", WasteRed),
+           WasteRed = if_else(WasteRed == "RegHet", "No", WasteRed),
+           WasteRed = if_else(WasteRed != "No", "WasteRed", "No")) %>%
+    mutate(DietScen = factor(DietScen, levels = c("Ref.", "Static", "Med.", "High", "Reg. Het.")),
+           MitigationScen = factor(MitigationScen, levels = c("WB2C", "Near2C", "NoPrice"))) %>%
+    filter(year >= 2020)
+  
+  
+  FigS7a <-    ggplot() +
+    facet_wrap(
+      ~ region,
+      scales = "fixed",
+      nrow = 4,
+      labeller = labeller(
+        region = function(x) stringr::str_wrap(x, width = 20)
+      )
+    )+
+    geom_line(data = plot_pcFoodAvail_total, aes(x = year, y = avail, color = interaction(DietScen, WasteRed), linetype = interaction(DietScen, WasteRed)), size = 0.75) +
+    #geom_point(data = plot_pcFoodAvail_total, aes(x = year, y = avail, color = interaction(DietScen, WasteRed)), size = 2) +
+    scale_color_manual(name = "Scenario", values = c("Ref..No" = "#999999",
+                                                     "Static.No" = "#E69F00",
+                                                     "Med..No" = "#56B4E9",
+                                                     "Med..WasteRed" = "#56B4E9",
+                                                     "High.No" = "#CC79A7",
+                                                     "High.WasteRed" = "#CC79A7",
+                                                     "Reg. Het..No" = "#006600",
+                                                     "Reg. Het..WasteRed" = "#006600"),
+                       labels = c("Ref..No" = "Ref.",
+                                  "Static.No" = "Static",
+                                  "Med..No" = "Med. (Diet only)",
+                                  "Med..WasteRed" = "Med. (With waste reduction efforts)",
+                                  "High.No" = "High (Diet only)",
+                                  "High.WasteRed" = "High (With waste reduction efforts)",
+                                  "Reg. Het..No" = "Reg. Het. (Diet only)",
+                                  "Reg. Het..WasteRed" = "Reg. Het. (With waste reduction efforts)")) +
+    scale_linetype_manual(name = "Scenario", values = c("Ref..No" = "solid",
+                                                        "Static.No" = "solid",
+                                                        "Med..No" = "solid",
+                                                        "Med..WasteRed" = "dashed",
+                                                        "High.No" = "solid",
+                                                        "High.WasteRed" = "dashed",
+                                                        "Reg. Het..No" = "solid",
+                                                        "Reg. Het..WasteRed" = "dashed"),
+                          labels = c("Ref..No" = "Ref.",
+                                     "Static.No" = "Static",
+                                     "Med..No" = "Med. (Diet only)",
+                                     "Med..WasteRed" = "Med. (With waste reduction efforts)",
+                                     "High.No" = "High (Diet only)",
+                                     "High.WasteRed" = "High (With waste reduction efforts)",
+                                     "Reg. Het..No" = "Reg. Het. (Diet only)",
+                                     "Reg. Het..WasteRed" = "Reg. Het. (With waste reduction efforts)"))+
+    labs(y = "kcal/cap/d", x = "", color = "Scenario", title = "A.  Total per capita food availability (supply) by region") +
+    theme_bw() + theme0 +
+    theme(legend.position = "right") +
+    theme(
+      axis.text.x = element_text(angle = 90, hjust = 3, vjust = 0.5, size = 14),
+    ) 
+  
+  print(FigS7a)
+  
+  FigS7a %>% Write_png(.name = "FigS7a", .DIR_MODULE = DIR_MODULE, h = 10, w = 22, r = 300)
+  
+  
+  # FIGURE S7B: PER CAPITA FOOD INTAKE BY 32REG -------------------------------------
+
+  plot_pcFoodIntake_total <- pcFoodIntake_total %>%
+    filter(scenario %in% c("3C", "2C", "1.5C",
+                          "3C_Diet_2050", "2C_Diet_2050", "1.5C_Diet_2050",
+                          "3C_DietWaste_2050", "2C_DietWaste_2050", "1.5C_DietWaste_2050",
+                          "3C_Diet_2100", "2C_Diet_2100", "1.5C_Diet_2100",
+                          "3C_DietWaste_2100", "2C_DietWaste_2100", "1.5C_DietWaste_2100",
+                          "3C_Diet_Static", "2C_Diet_Static", "1.5C_Diet_Static",
+                          "3C_Diet_RegHetStatic", "2C_Diet_RegHetStatic", "1.5C_Diet_RegHetStatic",
+                          "3C_DietWaste_RegHetStatic", "2C_DietWaste_RegHetStatic", "1.5C_DietWaste_RegHetStatic")) %>%
+    left_join_error_no_match(ScenarioMap %>% select(name, MitigationScen, DietScen, WasteRed), by = c("scenario" = "name")) %>%
+    mutate(WasteRed = if_else(WasteRed == "StaticWaste", "No", WasteRed),
+           WasteRed = if_else(WasteRed == "RegHet", "No", WasteRed),
+           WasteRed = if_else(WasteRed != "No", "WasteRed", "No")) %>%
+    mutate(DietScen = factor(DietScen, levels = c("Ref.", "Static", "Med.", "High", "Reg. Het.")),
+           MitigationScen = factor(MitigationScen, levels = c("WB2C", "Near2C", "NoPrice"))) %>%
+    filter(year >= 2020)
+  
+  
+  FigS7b <-    ggplot() +
+    facet_wrap(
+      ~ region,
+      scales = "fixed",
+      nrow = 4,
+      labeller = labeller(
+        region = function(x) stringr::str_wrap(x, width = 20)
+      )
+    )+
+    geom_line(data = plot_pcFoodIntake_total, aes(x = year, y = intake, color = interaction(DietScen, WasteRed), linetype = interaction(DietScen, WasteRed)), size = 0.75) +
+   # geom_point(data = plot_pcFoodIntake_total, aes(x = year, y = intake, color = interaction(DietScen, WasteRed)), size = 2) +
+    scale_color_manual(name = "Scenario", values = c("Ref..No" = "#999999",
+                                                     "Static.No" = "#E69F00",
+                                                     "Med..No" = "#56B4E9",
+                                                     "Med..WasteRed" = "#56B4E9",
+                                                     "High.No" = "#CC79A7",
+                                                     "High.WasteRed" = "#CC79A7",
+                                                     "Reg. Het..No" = "#006600",
+                                                     "Reg. Het..WasteRed" = "#006600"),
+                       labels = c("Ref..No" = "Ref.",
+                                  "Static.No" = "Static",
+                                  "Med..No" = "Med. (Diet only)",
+                                  "Med..WasteRed" = "Med. (With waste reduction efforts)",
+                                  "High.No" = "High (Diet only)",
+                                  "High.WasteRed" = "High (With waste reduction efforts)",
+                                  "Reg. Het..No" = "Reg. Het. (Diet only)",
+                                  "Reg. Het..WasteRed" = "Reg. Het. (With waste reduction efforts)")) +
+    scale_linetype_manual(name = "Scenario", values = c("Ref..No" = "solid",
+                                                        "Static.No" = "solid",
+                                                        "Med..No" = "solid",
+                                                        "Med..WasteRed" = "dashed",
+                                                        "High.No" = "solid",
+                                                        "High.WasteRed" = "dashed",
+                                                        "Reg. Het..No" = "solid",
+                                                        "Reg. Het..WasteRed" = "dashed"),
+                          labels = c("Ref..No" = "Ref.",
+                                     "Static.No" = "Static",
+                                     "Med..No" = "Med. (Diet only)",
+                                     "Med..WasteRed" = "Med. (With waste reduction efforts)",
+                                     "High.No" = "High (Diet only)",
+                                     "High.WasteRed" = "High (With waste reduction efforts)",
+                                     "Reg. Het..No" = "Reg. Het. (Diet only)",
+                                     "Reg. Het..WasteRed" = "Reg. Het. (With waste reduction efforts)"))+
+    labs(y = "kcal/cap/d", x = "", color = "Scenario", title = "B.  Total per capita food intake by region") +
+    theme_bw() + theme0 +
+    theme(legend.position = "right") +
+    theme(
+      axis.text.x = element_text(angle = 90, hjust = 3, vjust = 0.5, size = 14),
+    ) 
+  
+  print(FigS7b)
+  
+  FigS7b %>% Write_png(.name = "FigS7b", .DIR_MODULE = DIR_MODULE, h = 10, w = 22, r = 300)
+  
+  # FIGURE S8: FOOD INTAKE WASTE ---------------------------------------------------------------
 
 
   plot_Food <- Food_IntakeWaste_GLO %>%
@@ -995,7 +1143,7 @@ source("R/StepB_Emissions.R")
                                                   "1.5C_Diet_2100", "2C_Diet_2100", "3C_Diet_2100",
                                                   "1.5C_Diet_2050", "2C_Diet_2050", "3C_Diet_2050")))
 
-  FigS6 <- plot_Food_all %>%
+  FigS8 <- plot_Food_all %>%
     ggplot() +
     facet_wrap(~scenario, scales = "fixed", nrow = 4, label = as_labeller(scenario_labels_all_new)) +
     geom_bar_pattern(
@@ -1038,14 +1186,14 @@ source("R/StepB_Emissions.R")
     theme_bw() + theme0 +
     theme(legend.position = "right")
 
-  print(FigS6)
+  print(FigS8)
 
-  FigS6 %>% Write_png(.name = "FigS6", .DIR_MODULE = DIR_MODULE, h = 12, w = 12, r = 300)
-
-
+  FigS8 %>% Write_png(.name = "FigS8", .DIR_MODULE = DIR_MODULE, h = 12, w = 12, r = 300)
 
 
-  # FIGURE S7: PER CAP FOOD WASTE ---------------------------------------------------------------
+
+
+  # FIGURE S9: PER CAP FOOD WASTE ---------------------------------------------------------------
 
   plot_pcFood <-  bind_rows(pcFood_IntakeWaste_GLO,
                             pcFood_IntakeWaste_WBIncome) %>%
@@ -1116,7 +1264,7 @@ source("R/StepB_Emissions.R")
     # reset small negative values to 0
     mutate(value = if_else(value < 0, 0, value))
 
-  FigS7 <- plot_pcWaste_all_1.5C %>%
+  FigS9 <- plot_pcWaste_all_1.5C %>%
     filter(scenario %in% c("1.5C", "1.5C_Waste_2050","1.5C_Diet_2050"), year %in% c(2100)) %>%
     mutate(scenario = factor(scenario, levels = c("1.5C", "1.5C_Waste_2050","1.5C_Diet_2050"))) %>%
     ggplot() +
@@ -1168,15 +1316,15 @@ source("R/StepB_Emissions.R")
     theme_bw() + theme0 + coord_flip() +
     theme(legend.position = "right")
 
-  print(FigS7)
+  print(FigS9)
 
 
-  FigS7 %>% Write_png(.name = "FigS7", .DIR_MODULE = DIR_MODULE, h = 6, w = 10, r = 300)
+  FigS9 %>% Write_png(.name = "FigS9", .DIR_MODULE = DIR_MODULE, h = 6, w = 10, r = 300)
 
 
 
 
-  # FIGURE S8: FOOD SYS EM BY SECTOR (ALL) ----------------------------------
+  # FIGURE S10: FOOD SYS EM BY SECTOR (ALL) ----------------------------------
 
 
     # PLOT TOTAL FS EM LINE (MULTI PANEL - SI) -------------------------------------
@@ -1410,7 +1558,7 @@ source("R/StepB_Emissions.R")
 
 
 
-    # FIG S8 COMBINED ---------------------------------------------------------
+    # FIG S10 COMBINED ---------------------------------------------------------
 
 
     patchwork_FS_EM <- p1 / p2 +
@@ -1425,11 +1573,11 @@ source("R/StepB_Emissions.R")
 
     print(patchwork_FS_EM_with_line)
 
-    patchwork_FS_EM_with_line %>% Write_png(.name = "FigS8", .DIR_MODULE = DIR_MODULE, h = 12, w = 12, r = 300)
+    patchwork_FS_EM_with_line %>% Write_png(.name = "FigS10", .DIR_MODULE = DIR_MODULE, h = 12, w = 12, r = 300)
 
 
 
-  # FIGURE S9: AG PRODUCTION  ---------------------------------------------------------------
+  # FIGURE S11: AG PRODUCTION  ---------------------------------------------------------------
 
     AgBal <- "AgBal" %>% PluckBind()
 
@@ -1465,7 +1613,7 @@ source("R/StepB_Emissions.R")
 
 
 
-    FigS9 <- plot_AgBalDemandSector_GLO %>%
+    FigS11 <- plot_AgBalDemandSector_GLO %>%
       filter(scenario %in% c("3C", "2C", "1.5C",
                              "3C_DietWaste_2050", "2C_DietWaste_2050", "1.5C_DietWaste_2050",
                              "3C_DietWaste_2100", "2C_DietWaste_2100", "1.5C_DietWaste_2100",
@@ -1499,12 +1647,12 @@ source("R/StepB_Emissions.R")
       labs(y = "Mt", x = "", fill = "Sector", title = "Agircultural production by demand sector") +
       theme_bw() + theme0
 
-    print(FigS9)
+    print(FigS11)
 
-    FigS9 %>% Write_png(.name = "FigS9", .DIR_MODULE = DIR_MODULE, h = 12, w = 12, r = 300)
+    FigS11 %>% Write_png(.name = "FigS11", .DIR_MODULE = DIR_MODULE, h = 12, w = 12, r = 300)
 
 
-  # FIGURE S10: LAND ALLOCATION (DIFF FROM 2025) ---------------------------------------------------------
+  # FIGURE S12: LAND ALLOCATION (DIFF FROM 2025) ---------------------------------------------------------
 
     Land_reg <- PluckBind("Aggland") %>%
       left_join_error_no_match(select(LandMapping, LandLeaf, LandCover4), by = c("LandLeaf")) %>%
@@ -1569,7 +1717,7 @@ source("R/StepB_Emissions.R")
 
 
 
-    FigS10 <- Land_GLO_diff_2025 %>%
+    FigS12 <- Land_GLO_diff_2025 %>%
       filter(scenario.diff %in% c("1.5C", "2C", "3C",
                                   "1.5C_Diet_Static", "2C_Diet_Static", "3C_Diet_Static",
                                   "1.5C_DietWaste_2100", "2C_DietWaste_2100", "3C_DietWaste_2100",
@@ -1596,12 +1744,12 @@ source("R/StepB_Emissions.R")
       theme_bw() + theme0
 
 
-    print(FigS10)
+    print(FigS12)
 
-    FigS10 %>% Write_png(.name = "FigS10", .DIR_MODULE = DIR_MODULE, h = 12, w = 12, r = 300)
+    FigS12 %>% Write_png(.name = "FigS12", .DIR_MODULE = DIR_MODULE, h = 12, w = 12, r = 300)
 
 
-  # FIGURE S11: LAND ALLOCATION (DIFF FROM REF) -----------------------------
+  # FIGURE S13: LAND ALLOCATION (DIFF FROM REF) -----------------------------
 
 
     plot_Land_GLO_diff_Ref <- Land_GLO_diff_Ref %>%
@@ -1700,12 +1848,12 @@ source("R/StepB_Emissions.R")
 
     print(Fig_Land_diff_Ref)
 
-    Fig_Land_diff_Ref %>% Write_png(.name = "FigS11", .DIR_MODULE = DIR_MODULE, h = 14, w = 12, r = 300)
+    Fig_Land_diff_Ref %>% Write_png(.name = "FigS13", .DIR_MODULE = DIR_MODULE, h = 14, w = 12, r = 300)
 
 
 
 
-  # FIGURE S12: CDR ---------------------------------------------------------
+  # FIGURE S14: CDR ---------------------------------------------------------
 
     CSQ <- "CSQ" %>% PluckBind()
 
@@ -1716,6 +1864,11 @@ source("R/StepB_Emissions.R")
              Units = "MtCO2e") %>%
       group_by(scenario, sector0, Units, year) %>%
       dplyr::summarise(value = sum(value))
+    
+    #engineered CDR
+    total_eCDR_GLO <- CDR_GLO %>%
+      group_by(scenario, Units, year) %>%
+      dplyr::summarise(value = sum(value))
 
 
     CDR_LUC_GLO <- FS_LUC_EM %>%
@@ -1725,6 +1878,7 @@ source("R/StepB_Emissions.R")
       mutate(value = value*-1000,
              Units = "MtCO2e") %>%
       filter(value >= 0) # keep only the sequestrations
+    
 
     all_CDR_GLO <- bind_rows(CDR_GLO,
                              CDR_LUC_GLO)
@@ -1752,9 +1906,9 @@ source("R/StepB_Emissions.R")
 
     print(p1)
 
-    p1 %>% Write_png(.name = "FigS12", .DIR_MODULE = DIR_MODULE, h = 12, w = 12, r = 300)
+    p1 %>% Write_png(.name = "FigS14", .DIR_MODULE = DIR_MODULE, h = 12, w = 12, r = 300)
 
-  # FIGURE S13: EMISSIONS INTENSITY ------------------------------------------
+  # FIGURE S15: EMISSIONS INTENSITY ------------------------------------------
 
     plot_AgNonCO2_EmFactor <- AgNonCO2_EmFactor %>%
       left_join_error_no_match(ScenarioMap %>% select(name, MitigationScen, DietScen, WasteRed), by = c("scenario" = "name"))%>%
@@ -1763,7 +1917,7 @@ source("R/StepB_Emissions.R")
       mutate(DietScen = factor(DietScen, levels = c("Ref.", "Static", "Med.", "High", "Reg. Het.")),
              MitigationScen = factor(MitigationScen, levels = c("WB2C", "Near2C", "NoPrice")))
 
-    FigS13 <- plot_AgNonCO2_EmFactor %>%
+    FigS15 <- plot_AgNonCO2_EmFactor %>%
       filter(scenario %in% c("3C", "2C", "1.5C",
                              "3C_Diet_2050", "2C_Diet_2050", "1.5C_Diet_2050",
                              "3C_DietWaste_2050", "2C_DietWaste_2050", "1.5C_DietWaste_2050",
@@ -1809,13 +1963,13 @@ source("R/StepB_Emissions.R")
       theme(legend.position = "right",
             legend.key.width = unit(1, "cm"))
 
-    print(FigS13)
+    print(FigS15)
 
-    FigS13 %>% Write_png(.name = "FigS13", .DIR_MODULE = DIR_MODULE, h = 4, w = 10, r = 300)
+    FigS15 %>% Write_png(.name = "FigS15", .DIR_MODULE = DIR_MODULE, h = 4, w = 10, r = 300)
 
 
 
-# FIGURE S14: CUM FOOD SYS EM BY INCOME GROUP (ALL) ---------------------------------------
+# FIGURE S16: CUM FOOD SYS EM BY INCOME GROUP (ALL) ---------------------------------------
 
 
     # PLOT CUM FS EM INCOME BAR (DIFF - NEAR 2C SCEN) -----------------------------
@@ -1915,21 +2069,21 @@ print(p2)
 
 
 
-    # FIG S14 COMBINED ---------------------------------------------------------
+    # FIG S16 COMBINED ---------------------------------------------------------
 
 
-FigS14 <- p1 / p2 +
+FigS16 <- p1 / p2 +
   plot_layout(guides = "collect", heights = c(1, 1)) +
   theme(legend.position = "right") +
   plot_annotation(tag_levels = "A")  # Automatically adds "A" and "B" annotations
 
-print(FigS14)
+print(FigS16)
 
-FigS14 %>% Write_png(.name = "FigS14", .DIR_MODULE = DIR_MODULE, h = 8, w = 12, r = 300)
+FigS16 %>% Write_png(.name = "FigS16", .DIR_MODULE = DIR_MODULE, h = 8, w = 12, r = 300)
 
 
 
-# FIGURE S15: PER CAPITA CUM FS EM BY INCOME GROUP ----------------------------------------------------
+# FIGURE S17: PER CAPITA CUM FS EM BY INCOME GROUP ----------------------------------------------------
 
 POP_WBIncome_GLO <- bind_rows(POP_WBIncome,
                               POP_GLO) %>%
@@ -2091,12 +2245,206 @@ p4 <- pc_cum_FS_EM_WBIncome_ProdBased_diff_all %>%
 
 print(p4)
 
-FigS15 <- p1 / p2 / p3 / p4 +
+FigS17 <- p1 / p2 / p3 / p4 +
   plot_layout(guides = "collect", heights = c(1, 1, 1, 1)) +
   theme(legend.position = "right") +
   plot_annotation(tag_levels = "A")  # Automatically adds "A" and "B" annotations
 
-print(FigS15)
+print(FigS17)
 
-FigS15 %>% Write_png(.name = "FigS15", .DIR_MODULE = DIR_MODULE, h = 16, w = 12, r = 300)
+FigS17 %>% Write_png(.name = "FigS17", .DIR_MODULE = DIR_MODULE, h = 16, w = 12, r = 300)
+
+
+# FIGURE S18: TOTAL CUM FS EM BY 32REG ----------------------------------------------------
+
+
+plot_cum_FS_EM_reg <- cum_FS_EM_reg %>%
+  filter(scenario %in% c("3C", "2C", "1.5C",
+                         "3C_Diet_2050", "2C_Diet_2050", "1.5C_Diet_2050",
+                         "3C_DietWaste_2050", "2C_DietWaste_2050", "1.5C_DietWaste_2050",
+                         "3C_Diet_2100", "2C_Diet_2100", "1.5C_Diet_2100",
+                         "3C_DietWaste_2100", "2C_DietWaste_2100", "1.5C_DietWaste_2100",
+                         "3C_Diet_Static", "2C_Diet_Static", "1.5C_Diet_Static",
+                         "3C_Diet_RegHetStatic", "2C_Diet_RegHetStatic", "1.5C_Diet_RegHetStatic",
+                         "3C_DietWaste_RegHetStatic", "2C_DietWaste_RegHetStatic", "1.5C_DietWaste_RegHetStatic")) %>%
+  left_join_error_no_match(ScenarioMap %>% select(name, MitigationScen, DietScen, WasteRed), by = c("scenario" = "name")) %>%
+  mutate(WasteRed = if_else(WasteRed == "StaticWaste", "No", WasteRed),
+         WasteRed = if_else(WasteRed == "RegHet", "No", WasteRed),
+         WasteRed = if_else(WasteRed != "No", "WasteRed", "No")) %>%
+  mutate(DietScen = factor(DietScen, levels = c("Ref.", "Static", "Med.", "High", "Reg. Het.")),
+         MitigationScen = factor(MitigationScen, levels = c("WB2C", "Near2C", "NoPrice"))) %>%
+  filter(year >= 2020)
+
+FigS18a <-   ggplot() +
+  facet_wrap(
+    ~ region,
+    scales = "fixed",
+    nrow = 4,
+    labeller = labeller(
+      region = function(x) stringr::str_wrap(x, width = 20)
+    )
+  )+
+  geom_line(data = filter(plot_cum_FS_EM_reg ,
+                          MitigationScen == "WB2C"), aes(x = year, y = value, color = interaction(DietScen, WasteRed), linetype = interaction(DietScen, WasteRed)), size = 0.75) +
+ # geom_point(data = filter(plot_cum_FS_EM_reg,
+#                           MitigationScen == "WB2C"), aes(x = year, y = value, color = interaction(DietScen, WasteRed)), size = 2) +
+  scale_color_manual(name = "Scenario", values = c("Ref..No" = "#999999",
+                                                   "Static.No" = "#E69F00",
+                                                   "Med..No" = "#56B4E9",
+                                                   "Med..WasteRed" = "#56B4E9",
+                                                   "High.No" = "#CC79A7",
+                                                   "High.WasteRed" = "#CC79A7",
+                                                   "Reg. Het..No" = "#006600",
+                                                   "Reg. Het..WasteRed" = "#006600"),
+                     labels = c("Ref..No" = "Ref.",
+                                "Static.No" = "Static",
+                                "Med..No" = "Med. (Diet only)",
+                                "Med..WasteRed" = "Med. (With waste reduction efforts)",
+                                "High.No" = "High (Diet only)",
+                                "High.WasteRed" = "High (With waste reduction efforts)",
+                                "Reg. Het..No" = "Reg. Het. (Diet only)",
+                                "Reg. Het..WasteRed" = "Reg. Het. (With waste reduction efforts)")) +
+  scale_linetype_manual(name = "Scenario", values = c("Ref..No" = "solid",
+                                                      "Static.No" = "solid",
+                                                      "Med..No" = "solid",
+                                                      "Med..WasteRed" = "dashed",
+                                                      "High.No" = "solid",
+                                                      "High.WasteRed" = "dashed",
+                                                      "Reg. Het..No" = "solid",
+                                                      "Reg. Het..WasteRed" = "dashed"),
+                        labels = c("Ref..No" = "Ref.",
+                                   "Static.No" = "Static",
+                                   "Med..No" = "Med. (Diet only)",
+                                   "Med..WasteRed" = "Med. (With waste reduction efforts)",
+                                   "High.No" = "High (Diet only)",
+                                   "High.WasteRed" = "High (With waste reduction efforts)",
+                                   "Reg. Het..No" = "Reg. Het. (Diet only)",
+                                   "Reg. Het..WasteRed" = "Reg. Het. (With waste reduction efforts)"))+
+  labs(y = "GtCO2e", x = "", color = "Scenario", title = "A.  Cumulative food system emissions by region (well-below 2C scenarios)") +
+  theme_bw() + theme0 +
+  theme(legend.position = "right") +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 3, vjust = 0.5, size = 14),
+    legend.key.width = unit(1.5, "cm")
+  ) 
+
+print(FigS18a)
+
+FigS18a %>% Write_png(.name = "FigS18a", .DIR_MODULE = DIR_MODULE, h = 12, w = 30, r = 300)
+
+
+FigS18b <-    ggplot() +
+  facet_wrap(
+    ~ region,
+    scales = "fixed",
+    nrow = 4,
+    labeller = labeller(
+      region = function(x) stringr::str_wrap(x, width = 20)
+    )
+  )+
+  geom_line(data = filter(plot_cum_FS_EM_reg ,
+                          MitigationScen == "Near2C"), aes(x = year, y = value, color = interaction(DietScen, WasteRed), linetype = interaction(DietScen, WasteRed)), size = 0.75) +
+  # geom_point(data = filter(plot_cum_FS_EM_reg,
+  #                           MitigationScen == "WB2C"), aes(x = year, y = value, color = interaction(DietScen, WasteRed)), size = 2) +
+  scale_color_manual(name = "Scenario", values = c("Ref..No" = "#999999",
+                                                   "Static.No" = "#E69F00",
+                                                   "Med..No" = "#56B4E9",
+                                                   "Med..WasteRed" = "#56B4E9",
+                                                   "High.No" = "#CC79A7",
+                                                   "High.WasteRed" = "#CC79A7",
+                                                   "Reg. Het..No" = "#006600",
+                                                   "Reg. Het..WasteRed" = "#006600"),
+                     labels = c("Ref..No" = "Ref.",
+                                "Static.No" = "Static",
+                                "Med..No" = "Med. (Diet only)",
+                                "Med..WasteRed" = "Med. (With waste reduction efforts)",
+                                "High.No" = "High (Diet only)",
+                                "High.WasteRed" = "High (With waste reduction efforts)",
+                                "Reg. Het..No" = "Reg. Het. (Diet only)",
+                                "Reg. Het..WasteRed" = "Reg. Het. (With waste reduction efforts)")) +
+  scale_linetype_manual(name = "Scenario", values = c("Ref..No" = "solid",
+                                                      "Static.No" = "solid",
+                                                      "Med..No" = "solid",
+                                                      "Med..WasteRed" = "dashed",
+                                                      "High.No" = "solid",
+                                                      "High.WasteRed" = "dashed",
+                                                      "Reg. Het..No" = "solid",
+                                                      "Reg. Het..WasteRed" = "dashed"),
+                        labels = c("Ref..No" = "Ref.",
+                                   "Static.No" = "Static",
+                                   "Med..No" = "Med. (Diet only)",
+                                   "Med..WasteRed" = "Med. (With waste reduction efforts)",
+                                   "High.No" = "High (Diet only)",
+                                   "High.WasteRed" = "High (With waste reduction efforts)",
+                                   "Reg. Het..No" = "Reg. Het. (Diet only)",
+                                   "Reg. Het..WasteRed" = "Reg. Het. (With waste reduction efforts)"))+
+  labs(y = "GtCO2e", x = "", color = "Scenario", title = "B.  Cumulative food system emissions by region (Near 2C scenarios)") +
+  theme_bw() + theme0 +
+  theme(legend.position = "right") +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 3, vjust = 0.5, size = 14),
+    legend.key.width = unit(1.5, "cm")
+  ) 
+
+print(FigS18b)
+
+FigS18b %>% Write_png(.name = "FigS18b", .DIR_MODULE = DIR_MODULE, h = 12, w = 30, r = 300)
+
+
+FigS18c <-    ggplot() +
+  facet_wrap(
+    ~ region,
+    scales = "fixed",
+    nrow = 4,
+    labeller = labeller(
+      region = function(x) stringr::str_wrap(x, width = 20)
+    )
+  )+
+  geom_line(data = filter(plot_cum_FS_EM_reg ,
+                          MitigationScen == "NoPrice"), aes(x = year, y = value, color = interaction(DietScen, WasteRed), linetype = interaction(DietScen, WasteRed)), size = 0.75) +
+  # geom_point(data = filter(plot_cum_FS_EM_reg,
+  #                           MitigationScen == "WB2C"), aes(x = year, y = value, color = interaction(DietScen, WasteRed)), size = 2) +
+  scale_color_manual(name = "Scenario", values = c("Ref..No" = "#999999",
+                                                   "Static.No" = "#E69F00",
+                                                   "Med..No" = "#56B4E9",
+                                                   "Med..WasteRed" = "#56B4E9",
+                                                   "High.No" = "#CC79A7",
+                                                   "High.WasteRed" = "#CC79A7",
+                                                   "Reg. Het..No" = "#006600",
+                                                   "Reg. Het..WasteRed" = "#006600"),
+                     labels = c("Ref..No" = "Ref.",
+                                "Static.No" = "Static",
+                                "Med..No" = "Med. (Diet only)",
+                                "Med..WasteRed" = "Med. (With waste reduction efforts)",
+                                "High.No" = "High (Diet only)",
+                                "High.WasteRed" = "High (With waste reduction efforts)",
+                                "Reg. Het..No" = "Reg. Het. (Diet only)",
+                                "Reg. Het..WasteRed" = "Reg. Het. (With waste reduction efforts)")) +
+  scale_linetype_manual(name = "Scenario", values = c("Ref..No" = "solid",
+                                                      "Static.No" = "solid",
+                                                      "Med..No" = "solid",
+                                                      "Med..WasteRed" = "dashed",
+                                                      "High.No" = "solid",
+                                                      "High.WasteRed" = "dashed",
+                                                      "Reg. Het..No" = "solid",
+                                                      "Reg. Het..WasteRed" = "dashed"),
+                        labels = c("Ref..No" = "Ref.",
+                                   "Static.No" = "Static",
+                                   "Med..No" = "Med. (Diet only)",
+                                   "Med..WasteRed" = "Med. (With waste reduction efforts)",
+                                   "High.No" = "High (Diet only)",
+                                   "High.WasteRed" = "High (With waste reduction efforts)",
+                                   "Reg. Het..No" = "Reg. Het. (Diet only)",
+                                   "Reg. Het..WasteRed" = "Reg. Het. (With waste reduction efforts)"))+
+  labs(y = "GtCO2e", x = "", color = "Scenario", title = "C.  Cumulative food system emissions by region (NoPrice scenarios)") +
+  theme_bw() + theme0 +
+  theme(legend.position = "right") +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 3, vjust = 0.5, size = 14),
+    legend.key.width = unit(1.5, "cm")
+  ) 
+
+print(FigS18c)
+
+FigS18c %>% Write_png(.name = "FigS18c", .DIR_MODULE = DIR_MODULE, h = 12, w = 30, r = 300)
 

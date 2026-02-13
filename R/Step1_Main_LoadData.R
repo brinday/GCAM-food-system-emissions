@@ -20,13 +20,13 @@ DIR_DATA <- "data"
 DIR_OUTPUT <- "output"
 DIR_MODULE <- "figures"
 
-May2025 <- readRDS(file.path(DIR_OUTPUT, "ProjectRDS", paste0("May2025", ".RDS")))
-May2025 %>% names
+Jan2026 <- readRDS(file.path(DIR_OUTPUT, "ProjectRDS", paste0("Jan2026", ".RDS")))
+Jan2026 %>% names
 
 ScenarioMap <- readr::read_csv("data/maps/ScenMap.csv")
 
 
-PluckBind <- function(.query, .Listnm = "May2025"){
+PluckBind <- function(.query, .Listnm = "Jan2026"){
 
   get(.Listnm) %>% purrr::pluck(.query) %>%
     select(-ss) %>% filter(year %in% 2015:2100) %>%
@@ -44,3 +44,4 @@ ProcReg <- function(.df, reg_map_col = REG10_AR){
         select(region0 = region, region = reg_map_col), by = "region0")
 }
 
+ 

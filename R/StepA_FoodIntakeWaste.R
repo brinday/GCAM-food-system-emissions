@@ -77,6 +77,7 @@ Food_Waste <- Food_AggSector %>%
   mutate(value = avail - intake) %>%
   mutate(sector = "Waste") %>% select(-avail, -intake)
 
+
 #Food consumption (total) by region
 Food_IntakeWaste <- Food_AggSector %>%
   select(-avail) %>%
@@ -110,6 +111,16 @@ Food_AggSector %>%
   mutate(intake = intake /365/POP * 10^9,
          avail = avail /365/POP * 10^9) ->
   pcFood
+
+pcFoodAvail_total <- pcFood %>%
+  group_by(scenario, region, year) %>%
+  dplyr::summarise(avail= sum(avail)) %>%
+  ungroup()
+
+pcFoodIntake_total <- pcFood %>%
+  group_by(scenario, region, year) %>%
+  dplyr::summarise(intake = sum(intake)) %>%
+  ungroup()
 
 
 pcFood %>%
